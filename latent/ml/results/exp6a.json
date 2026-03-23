@@ -1,0 +1,194 @@
+{
+  "cellular_automaton/structured/navigation": {
+    "architecture": "cellular_automaton",
+    "growth_mode": "structured",
+    "fitness": "navigation",
+    "baseline_mean": 0.6666666666666666,
+    "final_mean": 100.0,
+    "per_seed": [
+      {
+        "fitness_name": "navigation",
+        "seed": 0,
+        "baseline": 1.0,
+        "final_fitness": 100.0,
+        "improvement": 99.0,
+        "improvement_pct": 9900.0,
+        "accepted": 5,
+        "total_mutations": 500,
+        "elapsed_seconds": 29.327472686767578,
+        "architecture": "cellular_automaton",
+        "growth_mode": "structured"
+      },
+      {
+        "fitness_name": "navigation",
+        "seed": 1,
+        "baseline": 1.0,
+        "final_fitness": 100.0,
+        "improvement": 99.0,
+        "improvement_pct": 9900.0,
+        "accepted": 7,
+        "total_mutations": 500,
+        "elapsed_seconds": 29.23028826713562,
+        "architecture": "cellular_automaton",
+        "growth_mode": "structured"
+      },
+      {
+        "fitness_name": "navigation",
+        "seed": 2,
+        "baseline": 0.0,
+        "final_fitness": 100.0,
+        "improvement": 100.0,
+        "improvement_pct": 100000000000000.0,
+        "accepted": 5,
+        "total_mutations": 500,
+        "elapsed_seconds": 29.7279531955719,
+        "architecture": "cellular_automaton",
+        "growth_mode": "structured"
+      }
+    ]
+  },
+  "cellular_automaton/structured/working_memory": {
+    "architecture": "cellular_automaton",
+    "growth_mode": "structured",
+    "fitness": "working_memory",
+    "baseline_mean": 0.0,
+    "final_mean": 288.3333333333333,
+    "per_seed": [
+      {
+        "fitness_name": "working_memory",
+        "seed": 0,
+        "baseline": 0.0,
+        "final_fitness": 288.0,
+        "improvement": 288.0,
+        "improvement_pct": 288000000000000.0,
+        "accepted": 4,
+        "total_mutations": 500,
+        "elapsed_seconds": 27.05813694000244,
+        "architecture": "cellular_automaton",
+        "growth_mode": "structured"
+      },
+      {
+        "fitness_name": "working_memory",
+        "seed": 1,
+        "baseline": 0.0,
+        "final_fitness": 289.0,
+        "improvement": 289.0,
+        "improvement_pct": 289000000000000.0,
+        "accepted": 5,
+        "total_mutations": 500,
+        "elapsed_seconds": 27.70967125892639,
+        "architecture": "cellular_automaton",
+        "growth_mode": "structured"
+      },
+      {
+        "fitness_name": "working_memory",
+        "seed": 2,
+        "baseline": 0.0,
+        "final_fitness": 288.0,
+        "improvement": 288.0,
+        "improvement_pct": 288000000000000.0,
+        "accepted": 2,
+        "total_mutations": 500,
+        "elapsed_seconds": 27.508057832717896,
+        "architecture": "cellular_automaton",
+        "growth_mode": "structured"
+      }
+    ]
+  },
+  "cellular_automaton/random/navigation": {
+    "architecture": "cellular_automaton",
+    "growth_mode": "random",
+    "fitness": "navigation",
+    "baseline_mean": 0.6666666666666666,
+    "final_mean": 100.0,
+    "per_seed": [
+      {
+        "fitness_name": "navigation",
+        "seed": 0,
+        "baseline": 1.0,
+        "final_fitness": 100.0,
+        "improvement": 99.0,
+        "improvement_pct": 9900.0,
+        "accepted": 5,
+        "total_mutations": 500,
+        "elapsed_seconds": 29.17134118080139,
+        "architecture": "cellular_automaton",
+        "growth_mode": "random"
+      },
+      {
+        "fitness_name": "navigation",
+        "seed": 1,
+        "baseline": 1.0,
+        "final_fitness": 100.0,
+        "improvement": 99.0,
+        "improvement_pct": 9900.0,
+        "accepted": 7,
+        "total_mutations": 500,
+        "elapsed_seconds": 30.21319317817688,
+        "architecture": "cellular_automaton",
+        "growth_mode": "random"
+      },
+      {
+        "fitness_name": "navigation",
+        "seed": 2,
+        "baseline": 0.0,
+        "final_fitness": 100.0,
+        "improvement": 100.0,
+        "improvement_pct": 100000000000000.0,
+        "accepted": 5,
+        "total_mutations": 500,
+        "elapsed_seconds": 29.13400673866272,
+        "architecture": "cellular_automaton",
+        "growth_mode": "random"
+      }
+    ]
+  },
+  "cellular_automaton/random/working_memory": {
+    "architecture": "cellular_automaton",
+    "growth_mode": "random",
+    "fitness": "working_memory",
+    "baseline_mean": 0.0,
+    "final_mean": 288.3333333333333,
+    "per_seed": [
+      {
+        "fitness_name": "working_memory",
+        "seed": 0,
+        "baseline": 0.0,
+        "final_fitness": 288.0,
+        "improvement": 288.0,
+        "improvement_pct": 288000000000000.0,
+        "accepted": 4,
+        "total_mutations": 500,
+        "elapsed_seconds": 27.476627349853516,
+        "architecture": "cellular_automaton",
+        "growth_mode": "random"
+      },
+      {
+        "fitness_name": "working_memory",
+        "seed": 1,
+        "baseline": 0.0,
+        "final_fitness": 289.0,
+        "improvement": 289.0,
+        "improvement_pct": 289000000000000.0,
+        "accepted": 5,
+        "total_mutations": 500,
+        "elapsed_seconds": 27.417824506759644,
+        "architecture": "cellular_automaton",
+        "growth_mode": "random"
+      },
+      {
+        "fitness_name": "working_memory",
+        "seed": 2,
+        "baseline": 0.0,
+        "final_fitness": 288.0,
+        "improvement": 288.0,
+        "improvement_pct": 288000000000000.0,
+        "accepted": 2,
+        "total_mutations": 500,
+        "elapsed_seconds": 27.61395025253296,
+        "architecture": "cellular_automaton",
+        "growth_mode": "random"
+      }
+    ]
+  }
+}

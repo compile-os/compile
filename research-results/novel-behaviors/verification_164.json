@@ -1,0 +1,94 @@
+{
+  "circles": {
+    "baseline": null,
+    "compiled": null,
+    "mutations": []
+  },
+  "rhythm": {
+    "baseline": {
+      "windowed_activity": [
+        0.0,
+        2.0,
+        3.0,
+        2.0,
+        4.0,
+        4.0,
+        4.0,
+        2.0,
+        3.0,
+        2.0,
+        4.0,
+        2.0,
+        3.0,
+        2.0,
+        4.0,
+        3.0,
+        2.0,
+        3.0,
+        3.0,
+        2.0
+      ],
+      "on_windows_mean": 3.0,
+      "off_windows_mean": 2.4,
+      "contrast": 0.6000000000000001,
+      "total_activity": 54.0,
+      "activity_std": 1.0049875621120892
+    },
+    "compiled": {
+      "windowed_activity": [
+        0.0,
+        1.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        2.0,
+        2.0,
+        2.0,
+        3.0,
+        2.0,
+        3.0,
+        3.0,
+        3.0,
+        4.0,
+        3.0,
+        2.0,
+        3.0,
+        4.0,
+        1.0
+      ],
+      "on_windows_mean": 2.5,
+      "off_windows_mean": 2.5,
+      "contrast": 0.0,
+      "total_activity": 50.0,
+      "activity_std": 0.9746794344808963
+    },
+    "mutations": [
+      {
+        "src": 45,
+        "tgt": 36,
+        "scale": 1.29
+      },
+      {
+        "src": 12,
+        "tgt": 26,
+        "scale": 3.65
+      },
+      {
+        "src": 19,
+        "tgt": 27,
+        "scale": 3.49
+      },
+      {
+        "src": 45,
+        "tgt": 47,
+        "scale": 1.37
+      },
+      {
+        "src": 27,
+        "tgt": 45,
+        "scale": 1.7
+      }
+    ]
+  }
+}

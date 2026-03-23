@@ -1,0 +1,5014 @@
+{
+  "fitness_name": "navigation",
+  "seed": 777,
+  "gain": 8.0,
+  "n_steps": 300,
+  "n_generations": 50,
+  "n_mutations_per_gen": 5,
+  "baseline_fitness": 5.5,
+  "final_fitness": 6.5,
+  "improvement": 1.0,
+  "total_accepted": 2,
+  "total_mutations": 250,
+  "mutations": [
+    {
+      "seed": 777,
+      "generation": 0,
+      "mutation_index": 0,
+      "pre_module": 35,
+      "post_module": 27,
+      "n_synapses": 503,
+      "scale": 2.0454143368926854,
+      "fitness_before": 5.5,
+      "fitness_after": 5.5,
+      "delta": 0.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 5
+      },
+      "total_spikes": 21210
+    },
+    {
+      "seed": 777,
+      "generation": 0,
+      "mutation_index": 1,
+      "pre_module": 14,
+      "post_module": 26,
+      "n_synapses": 5920,
+      "scale": 0.9697610993324526,
+      "fitness_before": 5.5,
+      "fitness_after": 5.0,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20390
+    },
+    {
+      "seed": 777,
+      "generation": 0,
+      "mutation_index": 2,
+      "pre_module": 24,
+      "post_module": 16,
+      "n_synapses": 5596,
+      "scale": 2.8028920289247155,
+      "fitness_before": 5.5,
+      "fitness_after": 5.0,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20140
+    },
+    {
+      "seed": 777,
+      "generation": 0,
+      "mutation_index": 3,
+      "pre_module": 33,
+      "post_module": 35,
+      "n_synapses": 33,
+      "scale": 2.3420997215430424,
+      "fitness_before": 5.5,
+      "fitness_after": 4.5,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 5
+      },
+      "total_spikes": 20118
+    },
+    {
+      "seed": 777,
+      "generation": 0,
+      "mutation_index": 4,
+      "pre_module": 21,
+      "post_module": 49,
+      "n_synapses": 5,
+      "scale": 1.0268536794749217,
+      "fitness_before": 5.5,
+      "fitness_after": 5.0,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21038
+    },
+    {
+      "seed": 777,
+      "generation": 1,
+      "mutation_index": 0,
+      "pre_module": 16,
+      "post_module": 26,
+      "n_synapses": 10820,
+      "scale": 0.5521077934389166,
+      "fitness_before": 5.5,
+      "fitness_after": 4.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 4
+      },
+      "total_spikes": 21131
+    },
+    {
+      "seed": 777,
+      "generation": 1,
+      "mutation_index": 1,
+      "pre_module": 23,
+      "post_module": 4,
+      "n_synapses": 14858,
+      "scale": 1.8919571343308337,
+      "fitness_before": 5.5,
+      "fitness_after": 5.0,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20725
+    },
+    {
+      "seed": 777,
+      "generation": 1,
+      "mutation_index": 2,
+      "pre_module": 48,
+      "post_module": 8,
+      "n_synapses": 1061,
+      "scale": 2.8101248993806047,
+      "fitness_before": 5.5,
+      "fitness_after": 5.0,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21369
+    },
+    {
+      "seed": 777,
+      "generation": 1,
+      "mutation_index": 3,
+      "pre_module": 38,
+      "post_module": 46,
+      "n_synapses": 1276,
+      "scale": 1.0259221562982999,
+      "fitness_before": 5.5,
+      "fitness_after": 5.0,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21499
+    },
+    {
+      "seed": 777,
+      "generation": 1,
+      "mutation_index": 4,
+      "pre_module": 41,
+      "post_module": 7,
+      "n_synapses": 21033,
+      "scale": 0.9019058672898914,
+      "fitness_before": 5.5,
+      "fitness_after": 6.0,
+      "delta": 0.5,
+      "accepted": true,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 6
+      },
+      "total_spikes": 20669
+    },
+    {
+      "seed": 777,
+      "generation": 2,
+      "mutation_index": 0,
+      "pre_module": 20,
+      "post_module": 29,
+      "n_synapses": 25,
+      "scale": 0.9001881022360163,
+      "fitness_before": 6.0,
+      "fitness_after": 6.0,
+      "delta": 0.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 6
+      },
+      "total_spikes": 20802
+    },
+    {
+      "seed": 777,
+      "generation": 2,
+      "mutation_index": 1,
+      "pre_module": 17,
+      "post_module": 41,
+      "n_synapses": 26857,
+      "scale": 0.8928901579190753,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 2,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20525
+    },
+    {
+      "seed": 777,
+      "generation": 2,
+      "mutation_index": 2,
+      "pre_module": 16,
+      "post_module": 47,
+      "n_synapses": 53,
+      "scale": 2.6835828076205734,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20677
+    },
+    {
+      "seed": 777,
+      "generation": 2,
+      "mutation_index": 3,
+      "pre_module": 46,
+      "post_module": 6,
+      "n_synapses": 14486,
+      "scale": 0.4255490122990393,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 2,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 20697
+    },
+    {
+      "seed": 777,
+      "generation": 2,
+      "mutation_index": 4,
+      "pre_module": 1,
+      "post_module": 14,
+      "n_synapses": 841,
+      "scale": 0.7858118281659568,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20943
+    },
+    {
+      "seed": 777,
+      "generation": 3,
+      "mutation_index": 0,
+      "pre_module": 31,
+      "post_module": 15,
+      "n_synapses": 359,
+      "scale": 0.41119507632034535,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 2,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20200
+    },
+    {
+      "seed": 777,
+      "generation": 3,
+      "mutation_index": 1,
+      "pre_module": 16,
+      "post_module": 48,
+      "n_synapses": 3483,
+      "scale": 1.695514278010881,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 20564
+    },
+    {
+      "seed": 777,
+      "generation": 3,
+      "mutation_index": 2,
+      "pre_module": 21,
+      "post_module": 13,
+      "n_synapses": 4,
+      "scale": 2.5141940572933277,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 4,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 20013
+    },
+    {
+      "seed": 777,
+      "generation": 3,
+      "mutation_index": 3,
+      "pre_module": 46,
+      "post_module": 16,
+      "n_synapses": 10348,
+      "scale": 1.738075303492631,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 21042
+    },
+    {
+      "seed": 777,
+      "generation": 3,
+      "mutation_index": 4,
+      "pre_module": 7,
+      "post_module": 28,
+      "n_synapses": 5838,
+      "scale": 1.7150626086051448,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 20859
+    },
+    {
+      "seed": 777,
+      "generation": 4,
+      "mutation_index": 0,
+      "pre_module": 21,
+      "post_module": 43,
+      "n_synapses": 9,
+      "scale": 2.7359995162392665,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20206
+    },
+    {
+      "seed": 777,
+      "generation": 4,
+      "mutation_index": 1,
+      "pre_module": 10,
+      "post_module": 1,
+      "n_synapses": 6243,
+      "scale": 1.747689981005015,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21085
+    },
+    {
+      "seed": 777,
+      "generation": 4,
+      "mutation_index": 2,
+      "pre_module": 23,
+      "post_module": 3,
+      "n_synapses": 29082,
+      "scale": 1.9524636640377302,
+      "fitness_before": 6.0,
+      "fitness_after": 4.0,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 4
+      },
+      "total_spikes": 20143
+    },
+    {
+      "seed": 777,
+      "generation": 4,
+      "mutation_index": 3,
+      "pre_module": 6,
+      "post_module": 40,
+      "n_synapses": 21791,
+      "scale": 2.905620094772005,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21119
+    },
+    {
+      "seed": 777,
+      "generation": 4,
+      "mutation_index": 4,
+      "pre_module": 15,
+      "post_module": 5,
+      "n_synapses": 134,
+      "scale": 2.3765979915010633,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20867
+    },
+    {
+      "seed": 777,
+      "generation": 5,
+      "mutation_index": 0,
+      "pre_module": 18,
+      "post_module": 27,
+      "n_synapses": 988,
+      "scale": 1.8062401491514573,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 21279
+    },
+    {
+      "seed": 777,
+      "generation": 5,
+      "mutation_index": 1,
+      "pre_module": 5,
+      "post_module": 8,
+      "n_synapses": 517,
+      "scale": 1.5750088269909397,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 20138
+    },
+    {
+      "seed": 777,
+      "generation": 5,
+      "mutation_index": 2,
+      "pre_module": 40,
+      "post_module": 31,
+      "n_synapses": 139,
+      "scale": 0.9828690000710942,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 20745
+    },
+    {
+      "seed": 777,
+      "generation": 5,
+      "mutation_index": 3,
+      "pre_module": 10,
+      "post_module": 43,
+      "n_synapses": 234,
+      "scale": 0.40268345720592125,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20345
+    },
+    {
+      "seed": 777,
+      "generation": 5,
+      "mutation_index": 4,
+      "pre_module": 8,
+      "post_module": 38,
+      "n_synapses": 1212,
+      "scale": 1.5137006247725426,
+      "fitness_before": 6.0,
+      "fitness_after": 4.0,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 4
+      },
+      "total_spikes": 21044
+    },
+    {
+      "seed": 777,
+      "generation": 6,
+      "mutation_index": 0,
+      "pre_module": 16,
+      "post_module": 42,
+      "n_synapses": 18087,
+      "scale": 2.9725068965641315,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 19948
+    },
+    {
+      "seed": 777,
+      "generation": 6,
+      "mutation_index": 1,
+      "pre_module": 35,
+      "post_module": 31,
+      "n_synapses": 94,
+      "scale": 2.790025599399739,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20631
+    },
+    {
+      "seed": 777,
+      "generation": 6,
+      "mutation_index": 2,
+      "pre_module": 2,
+      "post_module": 34,
+      "n_synapses": 17970,
+      "scale": 1.150828805700245,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20946
+    },
+    {
+      "seed": 777,
+      "generation": 6,
+      "mutation_index": 3,
+      "pre_module": 25,
+      "post_module": 35,
+      "n_synapses": 93,
+      "scale": 2.839724070472773,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 2,
+        "MN9_left": 4,
+        "MN9_right": 5
+      },
+      "total_spikes": 20573
+    },
+    {
+      "seed": 777,
+      "generation": 6,
+      "mutation_index": 4,
+      "pre_module": 33,
+      "post_module": 6,
+      "n_synapses": 17473,
+      "scale": 1.3149898681350272,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 20621
+    },
+    {
+      "seed": 777,
+      "generation": 7,
+      "mutation_index": 0,
+      "pre_module": 23,
+      "post_module": 30,
+      "n_synapses": 65975,
+      "scale": 1.4376259093730834,
+      "fitness_before": 6.0,
+      "fitness_after": 4.0,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 3
+      },
+      "total_spikes": 21251
+    },
+    {
+      "seed": 777,
+      "generation": 7,
+      "mutation_index": 1,
+      "pre_module": 18,
+      "post_module": 37,
+      "n_synapses": 116,
+      "scale": 2.557047205759528,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 5
+      },
+      "total_spikes": 20330
+    },
+    {
+      "seed": 777,
+      "generation": 7,
+      "mutation_index": 2,
+      "pre_module": 6,
+      "post_module": 15,
+      "n_synapses": 1302,
+      "scale": 2.591690620388619,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 5
+      },
+      "total_spikes": 20184
+    },
+    {
+      "seed": 777,
+      "generation": 7,
+      "mutation_index": 3,
+      "pre_module": 39,
+      "post_module": 19,
+      "n_synapses": 155,
+      "scale": 0.34373976182996707,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 5
+      },
+      "total_spikes": 20297
+    },
+    {
+      "seed": 777,
+      "generation": 7,
+      "mutation_index": 4,
+      "pre_module": 28,
+      "post_module": 11,
+      "n_synapses": 11276,
+      "scale": 2.2635741417994373,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 2,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 20858
+    },
+    {
+      "seed": 777,
+      "generation": 8,
+      "mutation_index": 0,
+      "pre_module": 5,
+      "post_module": 27,
+      "n_synapses": 529,
+      "scale": 0.34483623510522654,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 6
+      },
+      "total_spikes": 20554
+    },
+    {
+      "seed": 777,
+      "generation": 8,
+      "mutation_index": 1,
+      "pre_module": 10,
+      "post_module": 8,
+      "n_synapses": 1669,
+      "scale": 2.971778875600489,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21074
+    },
+    {
+      "seed": 777,
+      "generation": 8,
+      "mutation_index": 2,
+      "pre_module": 4,
+      "post_module": 35,
+      "n_synapses": 155,
+      "scale": 0.6764929650489213,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20747
+    },
+    {
+      "seed": 777,
+      "generation": 8,
+      "mutation_index": 3,
+      "pre_module": 0,
+      "post_module": 16,
+      "n_synapses": 3316,
+      "scale": 2.56154691270988,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 4
+      },
+      "total_spikes": 20459
+    },
+    {
+      "seed": 777,
+      "generation": 8,
+      "mutation_index": 4,
+      "pre_module": 23,
+      "post_module": 49,
+      "n_synapses": 42,
+      "scale": 2.525229236040888,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 6
+      },
+      "total_spikes": 21103
+    },
+    {
+      "seed": 777,
+      "generation": 9,
+      "mutation_index": 0,
+      "pre_module": 13,
+      "post_module": 28,
+      "n_synapses": 304,
+      "scale": 0.37951116408670416,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21032
+    },
+    {
+      "seed": 777,
+      "generation": 9,
+      "mutation_index": 1,
+      "pre_module": 36,
+      "post_module": 33,
+      "n_synapses": 8606,
+      "scale": 1.6990683286017472,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 5
+      },
+      "total_spikes": 20352
+    },
+    {
+      "seed": 777,
+      "generation": 9,
+      "mutation_index": 2,
+      "pre_module": 43,
+      "post_module": 20,
+      "n_synapses": 143,
+      "scale": 0.5386555909541172,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 6
+      },
+      "total_spikes": 21496
+    },
+    {
+      "seed": 777,
+      "generation": 9,
+      "mutation_index": 3,
+      "pre_module": 21,
+      "post_module": 24,
+      "n_synapses": 40,
+      "scale": 2.6070722281234096,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 2,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20959
+    },
+    {
+      "seed": 777,
+      "generation": 9,
+      "mutation_index": 4,
+      "pre_module": 31,
+      "post_module": 7,
+      "n_synapses": 293,
+      "scale": 2.5533101333433303,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 21183
+    },
+    {
+      "seed": 777,
+      "generation": 10,
+      "mutation_index": 0,
+      "pre_module": 49,
+      "post_module": 10,
+      "n_synapses": 90,
+      "scale": 1.1817897973399243,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 21220
+    },
+    {
+      "seed": 777,
+      "generation": 10,
+      "mutation_index": 1,
+      "pre_module": 41,
+      "post_module": 5,
+      "n_synapses": 109,
+      "scale": 2.6219121090979183,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 19788
+    },
+    {
+      "seed": 777,
+      "generation": 10,
+      "mutation_index": 2,
+      "pre_module": 12,
+      "post_module": 14,
+      "n_synapses": 505,
+      "scale": 2.3813875896388152,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 6
+      },
+      "total_spikes": 20083
+    },
+    {
+      "seed": 777,
+      "generation": 10,
+      "mutation_index": 3,
+      "pre_module": 39,
+      "post_module": 11,
+      "n_synapses": 84,
+      "scale": 1.0844471628447894,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 21496
+    },
+    {
+      "seed": 777,
+      "generation": 10,
+      "mutation_index": 4,
+      "pre_module": 20,
+      "post_module": 12,
+      "n_synapses": 20,
+      "scale": 0.8136635723382477,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 5
+      },
+      "total_spikes": 21455
+    },
+    {
+      "seed": 777,
+      "generation": 11,
+      "mutation_index": 0,
+      "pre_module": 5,
+      "post_module": 45,
+      "n_synapses": 478,
+      "scale": 1.5564316718401552,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 21127
+    },
+    {
+      "seed": 777,
+      "generation": 11,
+      "mutation_index": 1,
+      "pre_module": 44,
+      "post_module": 14,
+      "n_synapses": 642,
+      "scale": 2.66049688731253,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 19497
+    },
+    {
+      "seed": 777,
+      "generation": 11,
+      "mutation_index": 2,
+      "pre_module": 26,
+      "post_module": 19,
+      "n_synapses": 10800,
+      "scale": 1.5214421782848082,
+      "fitness_before": 6.0,
+      "fitness_after": 4.0,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 3
+      },
+      "total_spikes": 20745
+    },
+    {
+      "seed": 777,
+      "generation": 11,
+      "mutation_index": 3,
+      "pre_module": 14,
+      "post_module": 6,
+      "n_synapses": 7532,
+      "scale": 2.206169796727557,
+      "fitness_before": 6.0,
+      "fitness_after": 3.5,
+      "delta": -2.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 3
+      },
+      "total_spikes": 21013
+    },
+    {
+      "seed": 777,
+      "generation": 11,
+      "mutation_index": 4,
+      "pre_module": 31,
+      "post_module": 42,
+      "n_synapses": 281,
+      "scale": 1.7759680649417,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 2,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20175
+    },
+    {
+      "seed": 777,
+      "generation": 12,
+      "mutation_index": 0,
+      "pre_module": 25,
+      "post_module": 8,
+      "n_synapses": 4636,
+      "scale": 2.3191243363438128,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21064
+    },
+    {
+      "seed": 777,
+      "generation": 12,
+      "mutation_index": 1,
+      "pre_module": 35,
+      "post_module": 49,
+      "n_synapses": 48,
+      "scale": 2.2444572284182605,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20883
+    },
+    {
+      "seed": 777,
+      "generation": 12,
+      "mutation_index": 2,
+      "pre_module": 25,
+      "post_module": 39,
+      "n_synapses": 1882,
+      "scale": 1.7366509678545419,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20799
+    },
+    {
+      "seed": 777,
+      "generation": 12,
+      "mutation_index": 3,
+      "pre_module": 17,
+      "post_module": 32,
+      "n_synapses": 60648,
+      "scale": 2.0809113898172007,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 20189
+    },
+    {
+      "seed": 777,
+      "generation": 12,
+      "mutation_index": 4,
+      "pre_module": 45,
+      "post_module": 26,
+      "n_synapses": 10266,
+      "scale": 2.341261275678658,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 5
+      },
+      "total_spikes": 20675
+    },
+    {
+      "seed": 777,
+      "generation": 13,
+      "mutation_index": 0,
+      "pre_module": 8,
+      "post_module": 7,
+      "n_synapses": 5854,
+      "scale": 1.9266687145544077,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21359
+    },
+    {
+      "seed": 777,
+      "generation": 13,
+      "mutation_index": 1,
+      "pre_module": 41,
+      "post_module": 23,
+      "n_synapses": 33425,
+      "scale": 1.7093026526476267,
+      "fitness_before": 6.0,
+      "fitness_after": 4.0,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 3,
+        "MN9_right": 5
+      },
+      "total_spikes": 19996
+    },
+    {
+      "seed": 777,
+      "generation": 13,
+      "mutation_index": 2,
+      "pre_module": 38,
+      "post_module": 29,
+      "n_synapses": 60,
+      "scale": 0.9048995726140545,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 21273
+    },
+    {
+      "seed": 777,
+      "generation": 13,
+      "mutation_index": 3,
+      "pre_module": 27,
+      "post_module": 9,
+      "n_synapses": 6748,
+      "scale": 2.506499731912302,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20915
+    },
+    {
+      "seed": 777,
+      "generation": 13,
+      "mutation_index": 4,
+      "pre_module": 32,
+      "post_module": 36,
+      "n_synapses": 3013,
+      "scale": 2.538706372696343,
+      "fitness_before": 6.0,
+      "fitness_after": 4.0,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 4
+      },
+      "total_spikes": 20709
+    },
+    {
+      "seed": 777,
+      "generation": 14,
+      "mutation_index": 0,
+      "pre_module": 31,
+      "post_module": 21,
+      "n_synapses": 31,
+      "scale": 1.8959418325340882,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 19710
+    },
+    {
+      "seed": 777,
+      "generation": 14,
+      "mutation_index": 1,
+      "pre_module": 34,
+      "post_module": 45,
+      "n_synapses": 8798,
+      "scale": 2.468254712834066,
+      "fitness_before": 6.0,
+      "fitness_after": 4.0,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 4
+      },
+      "total_spikes": 20828
+    },
+    {
+      "seed": 777,
+      "generation": 14,
+      "mutation_index": 2,
+      "pre_module": 1,
+      "post_module": 13,
+      "n_synapses": 12,
+      "scale": 2.6978426099225747,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20789
+    },
+    {
+      "seed": 777,
+      "generation": 14,
+      "mutation_index": 3,
+      "pre_module": 39,
+      "post_module": 20,
+      "n_synapses": 11,
+      "scale": 1.8808669595457905,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21023
+    },
+    {
+      "seed": 777,
+      "generation": 14,
+      "mutation_index": 4,
+      "pre_module": 30,
+      "post_module": 4,
+      "n_synapses": 13029,
+      "scale": 0.5113704533862918,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 5
+      },
+      "total_spikes": 20105
+    },
+    {
+      "seed": 777,
+      "generation": 15,
+      "mutation_index": 0,
+      "pre_module": 8,
+      "post_module": 26,
+      "n_synapses": 4295,
+      "scale": 1.5099077169385404,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 20603
+    },
+    {
+      "seed": 777,
+      "generation": 15,
+      "mutation_index": 1,
+      "pre_module": 46,
+      "post_module": 30,
+      "n_synapses": 40717,
+      "scale": 2.4782067255477354,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20806
+    },
+    {
+      "seed": 777,
+      "generation": 15,
+      "mutation_index": 2,
+      "pre_module": 29,
+      "post_module": 9,
+      "n_synapses": 2330,
+      "scale": 2.4453249753954363,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20593
+    },
+    {
+      "seed": 777,
+      "generation": 15,
+      "mutation_index": 3,
+      "pre_module": 21,
+      "post_module": 12,
+      "n_synapses": 7,
+      "scale": 2.4616477552572995,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20439
+    },
+    {
+      "seed": 777,
+      "generation": 15,
+      "mutation_index": 4,
+      "pre_module": 31,
+      "post_module": 34,
+      "n_synapses": 237,
+      "scale": 2.968801987241787,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 5
+      },
+      "total_spikes": 20729
+    },
+    {
+      "seed": 777,
+      "generation": 16,
+      "mutation_index": 0,
+      "pre_module": 48,
+      "post_module": 45,
+      "n_synapses": 3912,
+      "scale": 1.6282899937247726,
+      "fitness_before": 6.0,
+      "fitness_after": 4.0,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 3
+      },
+      "total_spikes": 20336
+    },
+    {
+      "seed": 777,
+      "generation": 16,
+      "mutation_index": 1,
+      "pre_module": 12,
+      "post_module": 45,
+      "n_synapses": 256,
+      "scale": 0.4891134529290108,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 21461
+    },
+    {
+      "seed": 777,
+      "generation": 16,
+      "mutation_index": 2,
+      "pre_module": 41,
+      "post_module": 49,
+      "n_synapses": 64,
+      "scale": 2.8522189186292106,
+      "fitness_before": 6.0,
+      "fitness_after": 4.0,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 4,
+        "MN9_left": 4,
+        "MN9_right": 4
+      },
+      "total_spikes": 19743
+    },
+    {
+      "seed": 777,
+      "generation": 16,
+      "mutation_index": 3,
+      "pre_module": 44,
+      "post_module": 0,
+      "n_synapses": 677,
+      "scale": 2.0629129624308704,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 20409
+    },
+    {
+      "seed": 777,
+      "generation": 16,
+      "mutation_index": 4,
+      "pre_module": 47,
+      "post_module": 5,
+      "n_synapses": 17,
+      "scale": 2.7092147036407255,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 19823
+    },
+    {
+      "seed": 777,
+      "generation": 17,
+      "mutation_index": 0,
+      "pre_module": 1,
+      "post_module": 35,
+      "n_synapses": 21,
+      "scale": 0.678402445091124,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21636
+    },
+    {
+      "seed": 777,
+      "generation": 17,
+      "mutation_index": 1,
+      "pre_module": 46,
+      "post_module": 39,
+      "n_synapses": 773,
+      "scale": 1.7341927446098526,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20343
+    },
+    {
+      "seed": 777,
+      "generation": 17,
+      "mutation_index": 2,
+      "pre_module": 4,
+      "post_module": 2,
+      "n_synapses": 2211,
+      "scale": 2.0953359102886306,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21427
+    },
+    {
+      "seed": 777,
+      "generation": 17,
+      "mutation_index": 3,
+      "pre_module": 25,
+      "post_module": 26,
+      "n_synapses": 13408,
+      "scale": 0.6559840772969465,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21167
+    },
+    {
+      "seed": 777,
+      "generation": 17,
+      "mutation_index": 4,
+      "pre_module": 14,
+      "post_module": 37,
+      "n_synapses": 193,
+      "scale": 1.6994101655732556,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 21153
+    },
+    {
+      "seed": 777,
+      "generation": 18,
+      "mutation_index": 0,
+      "pre_module": 23,
+      "post_module": 34,
+      "n_synapses": 30777,
+      "scale": 0.8071622679931112,
+      "fitness_before": 6.0,
+      "fitness_after": 4.0,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 4
+      },
+      "total_spikes": 21369
+    },
+    {
+      "seed": 777,
+      "generation": 18,
+      "mutation_index": 1,
+      "pre_module": 3,
+      "post_module": 48,
+      "n_synapses": 3574,
+      "scale": 1.3156274625090962,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 5
+      },
+      "total_spikes": 20739
+    },
+    {
+      "seed": 777,
+      "generation": 18,
+      "mutation_index": 2,
+      "pre_module": 2,
+      "post_module": 33,
+      "n_synapses": 34214,
+      "scale": 0.47872538421438193,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 4
+      },
+      "total_spikes": 20761
+    },
+    {
+      "seed": 777,
+      "generation": 18,
+      "mutation_index": 3,
+      "pre_module": 9,
+      "post_module": 48,
+      "n_synapses": 2730,
+      "scale": 2.5367513020948165,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 19777
+    },
+    {
+      "seed": 777,
+      "generation": 18,
+      "mutation_index": 4,
+      "pre_module": 10,
+      "post_module": 34,
+      "n_synapses": 15504,
+      "scale": 1.3018664283187233,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20855
+    },
+    {
+      "seed": 777,
+      "generation": 19,
+      "mutation_index": 0,
+      "pre_module": 11,
+      "post_module": 8,
+      "n_synapses": 1192,
+      "scale": 1.455092558263623,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20484
+    },
+    {
+      "seed": 777,
+      "generation": 19,
+      "mutation_index": 1,
+      "pre_module": 38,
+      "post_module": 40,
+      "n_synapses": 1455,
+      "scale": 1.8641239772750795,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20445
+    },
+    {
+      "seed": 777,
+      "generation": 19,
+      "mutation_index": 2,
+      "pre_module": 48,
+      "post_module": 43,
+      "n_synapses": 293,
+      "scale": 2.9594954031231833,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 2,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20923
+    },
+    {
+      "seed": 777,
+      "generation": 19,
+      "mutation_index": 3,
+      "pre_module": 13,
+      "post_module": 4,
+      "n_synapses": 940,
+      "scale": 1.8554123113302807,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21118
+    },
+    {
+      "seed": 777,
+      "generation": 19,
+      "mutation_index": 4,
+      "pre_module": 27,
+      "post_module": 26,
+      "n_synapses": 5106,
+      "scale": 0.5596119173181633,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20114
+    },
+    {
+      "seed": 777,
+      "generation": 20,
+      "mutation_index": 0,
+      "pre_module": 9,
+      "post_module": 6,
+      "n_synapses": 14217,
+      "scale": 1.9389676786291334,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21039
+    },
+    {
+      "seed": 777,
+      "generation": 20,
+      "mutation_index": 1,
+      "pre_module": 33,
+      "post_module": 24,
+      "n_synapses": 12965,
+      "scale": 1.167041689683395,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 5
+      },
+      "total_spikes": 21053
+    },
+    {
+      "seed": 777,
+      "generation": 20,
+      "mutation_index": 2,
+      "pre_module": 49,
+      "post_module": 31,
+      "n_synapses": 24,
+      "scale": 2.7769691377616277,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 21088
+    },
+    {
+      "seed": 777,
+      "generation": 20,
+      "mutation_index": 3,
+      "pre_module": 36,
+      "post_module": 26,
+      "n_synapses": 4080,
+      "scale": 2.4591982579914995,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21087
+    },
+    {
+      "seed": 777,
+      "generation": 20,
+      "mutation_index": 4,
+      "pre_module": 21,
+      "post_module": 49,
+      "n_synapses": 5,
+      "scale": 2.7758820098327153,
+      "fitness_before": 6.0,
+      "fitness_after": 4.0,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 4
+      },
+      "total_spikes": 20233
+    },
+    {
+      "seed": 777,
+      "generation": 21,
+      "mutation_index": 0,
+      "pre_module": 23,
+      "post_module": 43,
+      "n_synapses": 642,
+      "scale": 1.7623753342017625,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 5
+      },
+      "total_spikes": 21171
+    },
+    {
+      "seed": 777,
+      "generation": 21,
+      "mutation_index": 1,
+      "pre_module": 8,
+      "post_module": 12,
+      "n_synapses": 150,
+      "scale": 2.385881106843442,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 21587
+    },
+    {
+      "seed": 777,
+      "generation": 21,
+      "mutation_index": 2,
+      "pre_module": 41,
+      "post_module": 11,
+      "n_synapses": 14612,
+      "scale": 2.026705000726212,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20868
+    },
+    {
+      "seed": 777,
+      "generation": 21,
+      "mutation_index": 3,
+      "pre_module": 28,
+      "post_module": 13,
+      "n_synapses": 59,
+      "scale": 1.5776814782635933,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20572
+    },
+    {
+      "seed": 777,
+      "generation": 21,
+      "mutation_index": 4,
+      "pre_module": 10,
+      "post_module": 48,
+      "n_synapses": 2920,
+      "scale": 1.2366748125602864,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 19243
+    },
+    {
+      "seed": 777,
+      "generation": 22,
+      "mutation_index": 0,
+      "pre_module": 25,
+      "post_module": 20,
+      "n_synapses": 229,
+      "scale": 0.8504772092012163,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 3
+      },
+      "total_spikes": 19810
+    },
+    {
+      "seed": 777,
+      "generation": 22,
+      "mutation_index": 1,
+      "pre_module": 9,
+      "post_module": 12,
+      "n_synapses": 70,
+      "scale": 0.7182743558890803,
+      "fitness_before": 6.0,
+      "fitness_after": 4.0,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 3,
+        "MN9_right": 5
+      },
+      "total_spikes": 21477
+    },
+    {
+      "seed": 777,
+      "generation": 22,
+      "mutation_index": 2,
+      "pre_module": 46,
+      "post_module": 40,
+      "n_synapses": 24028,
+      "scale": 1.2501245266684144,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 20694
+    },
+    {
+      "seed": 777,
+      "generation": 22,
+      "mutation_index": 3,
+      "pre_module": 2,
+      "post_module": 23,
+      "n_synapses": 29587,
+      "scale": 0.4964430508058385,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20976
+    },
+    {
+      "seed": 777,
+      "generation": 22,
+      "mutation_index": 4,
+      "pre_module": 1,
+      "post_module": 27,
+      "n_synapses": 691,
+      "scale": 1.1363304368624878,
+      "fitness_before": 6.0,
+      "fitness_after": 4.0,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 4
+      },
+      "total_spikes": 21169
+    },
+    {
+      "seed": 777,
+      "generation": 23,
+      "mutation_index": 0,
+      "pre_module": 36,
+      "post_module": 42,
+      "n_synapses": 3146,
+      "scale": 2.2339922914033723,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20858
+    },
+    {
+      "seed": 777,
+      "generation": 23,
+      "mutation_index": 1,
+      "pre_module": 25,
+      "post_module": 40,
+      "n_synapses": 22578,
+      "scale": 0.84727622733902,
+      "fitness_before": 6.0,
+      "fitness_after": 4.0,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 4
+      },
+      "total_spikes": 19829
+    },
+    {
+      "seed": 777,
+      "generation": 23,
+      "mutation_index": 2,
+      "pre_module": 41,
+      "post_module": 44,
+      "n_synapses": 566,
+      "scale": 2.3816694673496217,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 20787
+    },
+    {
+      "seed": 777,
+      "generation": 23,
+      "mutation_index": 3,
+      "pre_module": 5,
+      "post_module": 19,
+      "n_synapses": 760,
+      "scale": 2.0823499684909828,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21073
+    },
+    {
+      "seed": 777,
+      "generation": 23,
+      "mutation_index": 4,
+      "pre_module": 14,
+      "post_module": 9,
+      "n_synapses": 8542,
+      "scale": 2.075996030792172,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20817
+    },
+    {
+      "seed": 777,
+      "generation": 24,
+      "mutation_index": 0,
+      "pre_module": 1,
+      "post_module": 38,
+      "n_synapses": 1205,
+      "scale": 0.8696870363846501,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20485
+    },
+    {
+      "seed": 777,
+      "generation": 24,
+      "mutation_index": 1,
+      "pre_module": 42,
+      "post_module": 48,
+      "n_synapses": 3351,
+      "scale": 0.3576039765706725,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 5
+      },
+      "total_spikes": 20890
+    },
+    {
+      "seed": 777,
+      "generation": 24,
+      "mutation_index": 2,
+      "pre_module": 30,
+      "post_module": 12,
+      "n_synapses": 65,
+      "scale": 0.8305079660332484,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21127
+    },
+    {
+      "seed": 777,
+      "generation": 24,
+      "mutation_index": 3,
+      "pre_module": 34,
+      "post_module": 5,
+      "n_synapses": 48,
+      "scale": 0.6677564123955363,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 20929
+    },
+    {
+      "seed": 777,
+      "generation": 24,
+      "mutation_index": 4,
+      "pre_module": 16,
+      "post_module": 27,
+      "n_synapses": 4103,
+      "scale": 2.1549756257741652,
+      "fitness_before": 6.0,
+      "fitness_after": 6.0,
+      "delta": 0.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 6
+      },
+      "total_spikes": 21739
+    },
+    {
+      "seed": 777,
+      "generation": 25,
+      "mutation_index": 0,
+      "pre_module": 6,
+      "post_module": 35,
+      "n_synapses": 25,
+      "scale": 2.4458525203047925,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 5
+      },
+      "total_spikes": 21398
+    },
+    {
+      "seed": 777,
+      "generation": 25,
+      "mutation_index": 1,
+      "pre_module": 45,
+      "post_module": 37,
+      "n_synapses": 238,
+      "scale": 1.6542933801327513,
+      "fitness_before": 6.0,
+      "fitness_after": 4.0,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 4,
+        "MN9_left": 4,
+        "MN9_right": 4
+      },
+      "total_spikes": 20038
+    },
+    {
+      "seed": 777,
+      "generation": 25,
+      "mutation_index": 2,
+      "pre_module": 14,
+      "post_module": 4,
+      "n_synapses": 2674,
+      "scale": 2.243347202012448,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 5
+      },
+      "total_spikes": 21052
+    },
+    {
+      "seed": 777,
+      "generation": 25,
+      "mutation_index": 3,
+      "pre_module": 41,
+      "post_module": 26,
+      "n_synapses": 10801,
+      "scale": 2.4811633938888966,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 4
+      },
+      "total_spikes": 20804
+    },
+    {
+      "seed": 777,
+      "generation": 25,
+      "mutation_index": 4,
+      "pre_module": 1,
+      "post_module": 25,
+      "n_synapses": 2275,
+      "scale": 1.5621691249396368,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 21044
+    },
+    {
+      "seed": 777,
+      "generation": 26,
+      "mutation_index": 0,
+      "pre_module": 30,
+      "post_module": 25,
+      "n_synapses": 15541,
+      "scale": 1.4748116345531015,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21068
+    },
+    {
+      "seed": 777,
+      "generation": 26,
+      "mutation_index": 1,
+      "pre_module": 21,
+      "post_module": 23,
+      "n_synapses": 69,
+      "scale": 1.5765561798148753,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 20597
+    },
+    {
+      "seed": 777,
+      "generation": 26,
+      "mutation_index": 2,
+      "pre_module": 42,
+      "post_module": 49,
+      "n_synapses": 41,
+      "scale": 2.708437577678623,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 20342
+    },
+    {
+      "seed": 777,
+      "generation": 26,
+      "mutation_index": 3,
+      "pre_module": 37,
+      "post_module": 18,
+      "n_synapses": 73,
+      "scale": 2.7329429774881278,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 19931
+    },
+    {
+      "seed": 777,
+      "generation": 26,
+      "mutation_index": 4,
+      "pre_module": 33,
+      "post_module": 25,
+      "n_synapses": 14844,
+      "scale": 2.6872796907349694,
+      "fitness_before": 6.0,
+      "fitness_after": 4.0,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 4
+      },
+      "total_spikes": 20629
+    },
+    {
+      "seed": 777,
+      "generation": 27,
+      "mutation_index": 0,
+      "pre_module": 10,
+      "post_module": 6,
+      "n_synapses": 14056,
+      "scale": 1.1436255080610047,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 20315
+    },
+    {
+      "seed": 777,
+      "generation": 27,
+      "mutation_index": 1,
+      "pre_module": 20,
+      "post_module": 9,
+      "n_synapses": 246,
+      "scale": 2.8684150820021097,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20807
+    },
+    {
+      "seed": 777,
+      "generation": 27,
+      "mutation_index": 2,
+      "pre_module": 7,
+      "post_module": 21,
+      "n_synapses": 82,
+      "scale": 0.48734607140580877,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 20441
+    },
+    {
+      "seed": 777,
+      "generation": 27,
+      "mutation_index": 3,
+      "pre_module": 1,
+      "post_module": 42,
+      "n_synapses": 4603,
+      "scale": 0.5543123774477501,
+      "fitness_before": 6.0,
+      "fitness_after": 4.0,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 4
+      },
+      "total_spikes": 20363
+    },
+    {
+      "seed": 777,
+      "generation": 27,
+      "mutation_index": 4,
+      "pre_module": 12,
+      "post_module": 9,
+      "n_synapses": 140,
+      "scale": 2.4496023958448854,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 5
+      },
+      "total_spikes": 21162
+    },
+    {
+      "seed": 777,
+      "generation": 28,
+      "mutation_index": 0,
+      "pre_module": 1,
+      "post_module": 2,
+      "n_synapses": 7775,
+      "scale": 1.0779502342091296,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 5
+      },
+      "total_spikes": 21173
+    },
+    {
+      "seed": 777,
+      "generation": 28,
+      "mutation_index": 1,
+      "pre_module": 7,
+      "post_module": 18,
+      "n_synapses": 8961,
+      "scale": 2.372424548304257,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 20893
+    },
+    {
+      "seed": 777,
+      "generation": 28,
+      "mutation_index": 2,
+      "pre_module": 19,
+      "post_module": 8,
+      "n_synapses": 1242,
+      "scale": 0.959119586743848,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 2,
+        "DNa02_right": 2,
+        "MN9_left": 6,
+        "MN9_right": 5
+      },
+      "total_spikes": 20430
+    },
+    {
+      "seed": 777,
+      "generation": 28,
+      "mutation_index": 3,
+      "pre_module": 30,
+      "post_module": 2,
+      "n_synapses": 23527,
+      "scale": 0.8920759764027228,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 18320
+    },
+    {
+      "seed": 777,
+      "generation": 28,
+      "mutation_index": 4,
+      "pre_module": 14,
+      "post_module": 44,
+      "n_synapses": 515,
+      "scale": 0.49173736969943804,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 21170
+    },
+    {
+      "seed": 777,
+      "generation": 29,
+      "mutation_index": 0,
+      "pre_module": 44,
+      "post_module": 19,
+      "n_synapses": 1701,
+      "scale": 0.4872498800458211,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20169
+    },
+    {
+      "seed": 777,
+      "generation": 29,
+      "mutation_index": 1,
+      "pre_module": 47,
+      "post_module": 9,
+      "n_synapses": 179,
+      "scale": 2.0334038936437273,
+      "fitness_before": 6.0,
+      "fitness_after": 4.0,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 4
+      },
+      "total_spikes": 20683
+    },
+    {
+      "seed": 777,
+      "generation": 29,
+      "mutation_index": 2,
+      "pre_module": 23,
+      "post_module": 34,
+      "n_synapses": 30777,
+      "scale": 1.2712680650588324,
+      "fitness_before": 6.0,
+      "fitness_after": 5.5,
+      "delta": -0.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 21296
+    },
+    {
+      "seed": 777,
+      "generation": 29,
+      "mutation_index": 3,
+      "pre_module": 2,
+      "post_module": 13,
+      "n_synapses": 41,
+      "scale": 1.2169032075821276,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 5
+      },
+      "total_spikes": 21842
+    },
+    {
+      "seed": 777,
+      "generation": 29,
+      "mutation_index": 4,
+      "pre_module": 41,
+      "post_module": 46,
+      "n_synapses": 20517,
+      "scale": 2.94593238470681,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21424
+    },
+    {
+      "seed": 777,
+      "generation": 30,
+      "mutation_index": 0,
+      "pre_module": 6,
+      "post_module": 47,
+      "n_synapses": 61,
+      "scale": 2.608510989052342,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 4
+      },
+      "total_spikes": 20942
+    },
+    {
+      "seed": 777,
+      "generation": 30,
+      "mutation_index": 1,
+      "pre_module": 17,
+      "post_module": 8,
+      "n_synapses": 7204,
+      "scale": 0.33119460849365007,
+      "fitness_before": 6.0,
+      "fitness_after": 4.0,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 4
+      },
+      "total_spikes": 21368
+    },
+    {
+      "seed": 777,
+      "generation": 30,
+      "mutation_index": 2,
+      "pre_module": 3,
+      "post_module": 9,
+      "n_synapses": 22347,
+      "scale": 2.348628627509418,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 5
+      },
+      "total_spikes": 21012
+    },
+    {
+      "seed": 777,
+      "generation": 30,
+      "mutation_index": 3,
+      "pre_module": 25,
+      "post_module": 49,
+      "n_synapses": 86,
+      "scale": 2.385375311424537,
+      "fitness_before": 6.0,
+      "fitness_after": 5.0,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21082
+    },
+    {
+      "seed": 777,
+      "generation": 30,
+      "mutation_index": 4,
+      "pre_module": 44,
+      "post_module": 32,
+      "n_synapses": 1663,
+      "scale": 0.7270956149967303,
+      "fitness_before": 6.0,
+      "fitness_after": 4.5,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 5
+      },
+      "total_spikes": 20694
+    },
+    {
+      "seed": 777,
+      "generation": 31,
+      "mutation_index": 0,
+      "pre_module": 10,
+      "post_module": 14,
+      "n_synapses": 2461,
+      "scale": 1.3971896113182152,
+      "fitness_before": 6.0,
+      "fitness_after": 6.5,
+      "delta": 0.5,
+      "accepted": true,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 7
+      },
+      "total_spikes": 20208
+    },
+    {
+      "seed": 777,
+      "generation": 31,
+      "mutation_index": 1,
+      "pre_module": 39,
+      "post_module": 17,
+      "n_synapses": 378,
+      "scale": 2.2749151590475765,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21065
+    },
+    {
+      "seed": 777,
+      "generation": 31,
+      "mutation_index": 2,
+      "pre_module": 7,
+      "post_module": 0,
+      "n_synapses": 1252,
+      "scale": 1.4193039211417604,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 2,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 20804
+    },
+    {
+      "seed": 777,
+      "generation": 31,
+      "mutation_index": 3,
+      "pre_module": 1,
+      "post_module": 33,
+      "n_synapses": 8394,
+      "scale": 2.5689831466737143,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21445
+    },
+    {
+      "seed": 777,
+      "generation": 31,
+      "mutation_index": 4,
+      "pre_module": 47,
+      "post_module": 6,
+      "n_synapses": 148,
+      "scale": 2.19822438657144,
+      "fitness_before": 6.5,
+      "fitness_after": 4.0,
+      "delta": -2.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 3
+      },
+      "total_spikes": 20482
+    },
+    {
+      "seed": 777,
+      "generation": 32,
+      "mutation_index": 0,
+      "pre_module": 24,
+      "post_module": 23,
+      "n_synapses": 19747,
+      "scale": 2.0950475078648,
+      "fitness_before": 6.5,
+      "fitness_after": 5.5,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 21223
+    },
+    {
+      "seed": 777,
+      "generation": 32,
+      "mutation_index": 1,
+      "pre_module": 37,
+      "post_module": 2,
+      "n_synapses": 95,
+      "scale": 1.6306128806239946,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 4
+      },
+      "total_spikes": 20090
+    },
+    {
+      "seed": 777,
+      "generation": 32,
+      "mutation_index": 2,
+      "pre_module": 37,
+      "post_module": 9,
+      "n_synapses": 79,
+      "scale": 2.9403212157814007,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 21094
+    },
+    {
+      "seed": 777,
+      "generation": 32,
+      "mutation_index": 3,
+      "pre_module": 32,
+      "post_module": 39,
+      "n_synapses": 3451,
+      "scale": 0.442389196085247,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20232
+    },
+    {
+      "seed": 777,
+      "generation": 32,
+      "mutation_index": 4,
+      "pre_module": 25,
+      "post_module": 38,
+      "n_synapses": 2815,
+      "scale": 2.6500777364471677,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21019
+    },
+    {
+      "seed": 777,
+      "generation": 33,
+      "mutation_index": 0,
+      "pre_module": 23,
+      "post_module": 8,
+      "n_synapses": 4884,
+      "scale": 2.1613755081167705,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20935
+    },
+    {
+      "seed": 777,
+      "generation": 33,
+      "mutation_index": 1,
+      "pre_module": 39,
+      "post_module": 37,
+      "n_synapses": 13,
+      "scale": 1.660007157520592,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20445
+    },
+    {
+      "seed": 777,
+      "generation": 33,
+      "mutation_index": 2,
+      "pre_module": 18,
+      "post_module": 42,
+      "n_synapses": 6314,
+      "scale": 1.418761224774904,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 20297
+    },
+    {
+      "seed": 777,
+      "generation": 33,
+      "mutation_index": 3,
+      "pre_module": 8,
+      "post_module": 18,
+      "n_synapses": 3932,
+      "scale": 2.9121799273372493,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 21912
+    },
+    {
+      "seed": 777,
+      "generation": 33,
+      "mutation_index": 4,
+      "pre_module": 2,
+      "post_module": 5,
+      "n_synapses": 45,
+      "scale": 1.776677219444682,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 2,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 19711
+    },
+    {
+      "seed": 777,
+      "generation": 34,
+      "mutation_index": 0,
+      "pre_module": 30,
+      "post_module": 5,
+      "n_synapses": 48,
+      "scale": 1.8049806739564738,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 21111
+    },
+    {
+      "seed": 777,
+      "generation": 34,
+      "mutation_index": 1,
+      "pre_module": 29,
+      "post_module": 47,
+      "n_synapses": 107,
+      "scale": 2.5332961423709883,
+      "fitness_before": 6.5,
+      "fitness_after": 4.0,
+      "delta": -2.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 4
+      },
+      "total_spikes": 21368
+    },
+    {
+      "seed": 777,
+      "generation": 34,
+      "mutation_index": 2,
+      "pre_module": 13,
+      "post_module": 10,
+      "n_synapses": 194,
+      "scale": 0.7465225570422142,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20968
+    },
+    {
+      "seed": 777,
+      "generation": 34,
+      "mutation_index": 3,
+      "pre_module": 49,
+      "post_module": 1,
+      "n_synapses": 41,
+      "scale": 2.1643508518188708,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 21073
+    },
+    {
+      "seed": 777,
+      "generation": 34,
+      "mutation_index": 4,
+      "pre_module": 41,
+      "post_module": 21,
+      "n_synapses": 109,
+      "scale": 1.488769375455329,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 5
+      },
+      "total_spikes": 21056
+    },
+    {
+      "seed": 777,
+      "generation": 35,
+      "mutation_index": 0,
+      "pre_module": 8,
+      "post_module": 27,
+      "n_synapses": 2391,
+      "scale": 1.0738268055215814,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20660
+    },
+    {
+      "seed": 777,
+      "generation": 35,
+      "mutation_index": 1,
+      "pre_module": 39,
+      "post_module": 32,
+      "n_synapses": 357,
+      "scale": 2.4318353832927526,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20813
+    },
+    {
+      "seed": 777,
+      "generation": 35,
+      "mutation_index": 2,
+      "pre_module": 23,
+      "post_module": 39,
+      "n_synapses": 2836,
+      "scale": 2.720359870893789,
+      "fitness_before": 6.5,
+      "fitness_after": 5.5,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 2,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 21618
+    },
+    {
+      "seed": 777,
+      "generation": 35,
+      "mutation_index": 3,
+      "pre_module": 12,
+      "post_module": 15,
+      "n_synapses": 214,
+      "scale": 2.6226585378134586,
+      "fitness_before": 6.5,
+      "fitness_after": 5.5,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 20309
+    },
+    {
+      "seed": 777,
+      "generation": 35,
+      "mutation_index": 4,
+      "pre_module": 2,
+      "post_module": 41,
+      "n_synapses": 8273,
+      "scale": 1.731760558217588,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21646
+    },
+    {
+      "seed": 777,
+      "generation": 36,
+      "mutation_index": 0,
+      "pre_module": 47,
+      "post_module": 49,
+      "n_synapses": 22,
+      "scale": 0.42621814205129066,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 4,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20483
+    },
+    {
+      "seed": 777,
+      "generation": 36,
+      "mutation_index": 1,
+      "pre_module": 10,
+      "post_module": 44,
+      "n_synapses": 221,
+      "scale": 2.658241625683142,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 5
+      },
+      "total_spikes": 20450
+    },
+    {
+      "seed": 777,
+      "generation": 36,
+      "mutation_index": 2,
+      "pre_module": 48,
+      "post_module": 15,
+      "n_synapses": 393,
+      "scale": 2.3783840714742692,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20562
+    },
+    {
+      "seed": 777,
+      "generation": 36,
+      "mutation_index": 3,
+      "pre_module": 5,
+      "post_module": 2,
+      "n_synapses": 226,
+      "scale": 2.294954815104115,
+      "fitness_before": 6.5,
+      "fitness_after": 4.0,
+      "delta": -2.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 4
+      },
+      "total_spikes": 20408
+    },
+    {
+      "seed": 777,
+      "generation": 36,
+      "mutation_index": 4,
+      "pre_module": 24,
+      "post_module": 8,
+      "n_synapses": 1276,
+      "scale": 1.7331225722633048,
+      "fitness_before": 6.5,
+      "fitness_after": 4.0,
+      "delta": -2.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 3
+      },
+      "total_spikes": 21128
+    },
+    {
+      "seed": 777,
+      "generation": 37,
+      "mutation_index": 0,
+      "pre_module": 47,
+      "post_module": 31,
+      "n_synapses": 27,
+      "scale": 0.8313717964422143,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 19351
+    },
+    {
+      "seed": 777,
+      "generation": 37,
+      "mutation_index": 1,
+      "pre_module": 34,
+      "post_module": 23,
+      "n_synapses": 25689,
+      "scale": 1.786621932704911,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20970
+    },
+    {
+      "seed": 777,
+      "generation": 37,
+      "mutation_index": 2,
+      "pre_module": 45,
+      "post_module": 44,
+      "n_synapses": 462,
+      "scale": 0.8201022981189348,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 5
+      },
+      "total_spikes": 19679
+    },
+    {
+      "seed": 777,
+      "generation": 37,
+      "mutation_index": 3,
+      "pre_module": 10,
+      "post_module": 27,
+      "n_synapses": 2053,
+      "scale": 2.237556647292696,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 4
+      },
+      "total_spikes": 20968
+    },
+    {
+      "seed": 777,
+      "generation": 37,
+      "mutation_index": 4,
+      "pre_module": 12,
+      "post_module": 47,
+      "n_synapses": 39,
+      "scale": 2.0014227896838057,
+      "fitness_before": 6.5,
+      "fitness_after": 5.5,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 5
+      },
+      "total_spikes": 20698
+    },
+    {
+      "seed": 777,
+      "generation": 38,
+      "mutation_index": 0,
+      "pre_module": 7,
+      "post_module": 44,
+      "n_synapses": 180,
+      "scale": 2.423839040274497,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 2,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20786
+    },
+    {
+      "seed": 777,
+      "generation": 38,
+      "mutation_index": 1,
+      "pre_module": 17,
+      "post_module": 15,
+      "n_synapses": 4830,
+      "scale": 2.663975614663553,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21837
+    },
+    {
+      "seed": 777,
+      "generation": 38,
+      "mutation_index": 2,
+      "pre_module": 11,
+      "post_module": 49,
+      "n_synapses": 94,
+      "scale": 1.8453243424323311,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20532
+    },
+    {
+      "seed": 777,
+      "generation": 38,
+      "mutation_index": 3,
+      "pre_module": 0,
+      "post_module": 1,
+      "n_synapses": 1846,
+      "scale": 2.1096856478867423,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 5
+      },
+      "total_spikes": 20350
+    },
+    {
+      "seed": 777,
+      "generation": 38,
+      "mutation_index": 4,
+      "pre_module": 34,
+      "post_module": 44,
+      "n_synapses": 132,
+      "scale": 1.3986406549175767,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21528
+    },
+    {
+      "seed": 777,
+      "generation": 39,
+      "mutation_index": 0,
+      "pre_module": 33,
+      "post_module": 34,
+      "n_synapses": 23117,
+      "scale": 1.8513080851067027,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 5
+      },
+      "total_spikes": 20498
+    },
+    {
+      "seed": 777,
+      "generation": 39,
+      "mutation_index": 1,
+      "pre_module": 37,
+      "post_module": 33,
+      "n_synapses": 73,
+      "scale": 2.4218155505628536,
+      "fitness_before": 6.5,
+      "fitness_after": 5.5,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 20552
+    },
+    {
+      "seed": 777,
+      "generation": 39,
+      "mutation_index": 2,
+      "pre_module": 48,
+      "post_module": 12,
+      "n_synapses": 76,
+      "scale": 1.2013847903555503,
+      "fitness_before": 6.5,
+      "fitness_after": 5.5,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 2,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 20974
+    },
+    {
+      "seed": 777,
+      "generation": 39,
+      "mutation_index": 3,
+      "pre_module": 37,
+      "post_module": 4,
+      "n_synapses": 49,
+      "scale": 1.7360946021328298,
+      "fitness_before": 6.5,
+      "fitness_after": 5.5,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 20287
+    },
+    {
+      "seed": 777,
+      "generation": 39,
+      "mutation_index": 4,
+      "pre_module": 16,
+      "post_module": 41,
+      "n_synapses": 15068,
+      "scale": 0.3692892013219277,
+      "fitness_before": 6.5,
+      "fitness_after": 5.5,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 20224
+    },
+    {
+      "seed": 777,
+      "generation": 40,
+      "mutation_index": 0,
+      "pre_module": 20,
+      "post_module": 47,
+      "n_synapses": 30,
+      "scale": 2.8172985738741985,
+      "fitness_before": 6.5,
+      "fitness_after": 5.5,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 20951
+    },
+    {
+      "seed": 777,
+      "generation": 40,
+      "mutation_index": 1,
+      "pre_module": 45,
+      "post_module": 26,
+      "n_synapses": 10266,
+      "scale": 1.8849539464332834,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 2,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 19823
+    },
+    {
+      "seed": 777,
+      "generation": 40,
+      "mutation_index": 2,
+      "pre_module": 4,
+      "post_module": 29,
+      "n_synapses": 388,
+      "scale": 1.1971531695654243,
+      "fitness_before": 6.5,
+      "fitness_after": 4.0,
+      "delta": -2.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 3
+      },
+      "total_spikes": 21375
+    },
+    {
+      "seed": 777,
+      "generation": 40,
+      "mutation_index": 3,
+      "pre_module": 32,
+      "post_module": 1,
+      "n_synapses": 7297,
+      "scale": 2.1443711154332754,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 2,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20086
+    },
+    {
+      "seed": 777,
+      "generation": 40,
+      "mutation_index": 4,
+      "pre_module": 30,
+      "post_module": 37,
+      "n_synapses": 108,
+      "scale": 2.815035933040591,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20683
+    },
+    {
+      "seed": 777,
+      "generation": 41,
+      "mutation_index": 0,
+      "pre_module": 34,
+      "post_module": 29,
+      "n_synapses": 300,
+      "scale": 2.493523940919171,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 21310
+    },
+    {
+      "seed": 777,
+      "generation": 41,
+      "mutation_index": 1,
+      "pre_module": 4,
+      "post_module": 19,
+      "n_synapses": 5128,
+      "scale": 2.809441880435052,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21089
+    },
+    {
+      "seed": 777,
+      "generation": 41,
+      "mutation_index": 2,
+      "pre_module": 31,
+      "post_module": 22,
+      "n_synapses": 240,
+      "scale": 0.5125925952885921,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 20063
+    },
+    {
+      "seed": 777,
+      "generation": 41,
+      "mutation_index": 3,
+      "pre_module": 20,
+      "post_module": 1,
+      "n_synapses": 122,
+      "scale": 1.7489808422851798,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21143
+    },
+    {
+      "seed": 777,
+      "generation": 41,
+      "mutation_index": 4,
+      "pre_module": 1,
+      "post_module": 2,
+      "n_synapses": 7775,
+      "scale": 1.1312889844685865,
+      "fitness_before": 6.5,
+      "fitness_after": 5.5,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 5
+      },
+      "total_spikes": 20665
+    },
+    {
+      "seed": 777,
+      "generation": 42,
+      "mutation_index": 0,
+      "pre_module": 34,
+      "post_module": 6,
+      "n_synapses": 9343,
+      "scale": 0.39907994305395045,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 4
+      },
+      "total_spikes": 19448
+    },
+    {
+      "seed": 777,
+      "generation": 42,
+      "mutation_index": 1,
+      "pre_module": 10,
+      "post_module": 4,
+      "n_synapses": 6990,
+      "scale": 2.630980221745856,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20722
+    },
+    {
+      "seed": 777,
+      "generation": 42,
+      "mutation_index": 2,
+      "pre_module": 8,
+      "post_module": 18,
+      "n_synapses": 3932,
+      "scale": 2.188727835254413,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20683
+    },
+    {
+      "seed": 777,
+      "generation": 42,
+      "mutation_index": 3,
+      "pre_module": 45,
+      "post_module": 42,
+      "n_synapses": 18149,
+      "scale": 1.6999668225171365,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 5
+      },
+      "total_spikes": 19511
+    },
+    {
+      "seed": 777,
+      "generation": 42,
+      "mutation_index": 4,
+      "pre_module": 16,
+      "post_module": 17,
+      "n_synapses": 36110,
+      "scale": 2.864146533573636,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 5
+      },
+      "total_spikes": 21341
+    },
+    {
+      "seed": 777,
+      "generation": 43,
+      "mutation_index": 0,
+      "pre_module": 5,
+      "post_module": 33,
+      "n_synapses": 526,
+      "scale": 0.5178386598619418,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21528
+    },
+    {
+      "seed": 777,
+      "generation": 43,
+      "mutation_index": 1,
+      "pre_module": 39,
+      "post_module": 20,
+      "n_synapses": 11,
+      "scale": 1.6838534285125557,
+      "fitness_before": 6.5,
+      "fitness_after": 5.5,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 21016
+    },
+    {
+      "seed": 777,
+      "generation": 43,
+      "mutation_index": 2,
+      "pre_module": 16,
+      "post_module": 5,
+      "n_synapses": 81,
+      "scale": 0.5873030161475463,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20083
+    },
+    {
+      "seed": 777,
+      "generation": 43,
+      "mutation_index": 3,
+      "pre_module": 43,
+      "post_module": 29,
+      "n_synapses": 292,
+      "scale": 0.5414437752547253,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21109
+    },
+    {
+      "seed": 777,
+      "generation": 43,
+      "mutation_index": 4,
+      "pre_module": 34,
+      "post_module": 3,
+      "n_synapses": 9719,
+      "scale": 0.4621180046401778,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 2,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20748
+    },
+    {
+      "seed": 777,
+      "generation": 44,
+      "mutation_index": 0,
+      "pre_module": 32,
+      "post_module": 35,
+      "n_synapses": 39,
+      "scale": 1.7444678640661506,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20143
+    },
+    {
+      "seed": 777,
+      "generation": 44,
+      "mutation_index": 1,
+      "pre_module": 23,
+      "post_module": 25,
+      "n_synapses": 23013,
+      "scale": 1.6318013257987793,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 19130
+    },
+    {
+      "seed": 777,
+      "generation": 44,
+      "mutation_index": 2,
+      "pre_module": 37,
+      "post_module": 16,
+      "n_synapses": 94,
+      "scale": 2.1112556875328377,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20758
+    },
+    {
+      "seed": 777,
+      "generation": 44,
+      "mutation_index": 3,
+      "pre_module": 46,
+      "post_module": 26,
+      "n_synapses": 6923,
+      "scale": 2.049275491481236,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20489
+    },
+    {
+      "seed": 777,
+      "generation": 44,
+      "mutation_index": 4,
+      "pre_module": 14,
+      "post_module": 23,
+      "n_synapses": 13420,
+      "scale": 2.6867440634331627,
+      "fitness_before": 6.5,
+      "fitness_after": 5.5,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 6
+      },
+      "total_spikes": 21154
+    },
+    {
+      "seed": 777,
+      "generation": 45,
+      "mutation_index": 0,
+      "pre_module": 22,
+      "post_module": 10,
+      "n_synapses": 13455,
+      "scale": 1.5788166447684218,
+      "fitness_before": 6.5,
+      "fitness_after": 5.5,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 5
+      },
+      "total_spikes": 21532
+    },
+    {
+      "seed": 777,
+      "generation": 45,
+      "mutation_index": 1,
+      "pre_module": 13,
+      "post_module": 12,
+      "n_synapses": 92,
+      "scale": 1.1903866874799416,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20162
+    },
+    {
+      "seed": 777,
+      "generation": 45,
+      "mutation_index": 2,
+      "pre_module": 25,
+      "post_module": 1,
+      "n_synapses": 7638,
+      "scale": 1.728801031719394,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 6
+      },
+      "total_spikes": 20715
+    },
+    {
+      "seed": 777,
+      "generation": 45,
+      "mutation_index": 3,
+      "pre_module": 47,
+      "post_module": 34,
+      "n_synapses": 83,
+      "scale": 1.1732299779500774,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 20332
+    },
+    {
+      "seed": 777,
+      "generation": 45,
+      "mutation_index": 4,
+      "pre_module": 0,
+      "post_module": 22,
+      "n_synapses": 3550,
+      "scale": 1.5462877761076899,
+      "fitness_before": 6.5,
+      "fitness_after": 4.0,
+      "delta": -2.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 4
+      },
+      "total_spikes": 21409
+    },
+    {
+      "seed": 777,
+      "generation": 46,
+      "mutation_index": 0,
+      "pre_module": 18,
+      "post_module": 30,
+      "n_synapses": 12253,
+      "scale": 0.43093072680759176,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 21594
+    },
+    {
+      "seed": 777,
+      "generation": 46,
+      "mutation_index": 1,
+      "pre_module": 23,
+      "post_module": 28,
+      "n_synapses": 17690,
+      "scale": 1.300073081847141,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20294
+    },
+    {
+      "seed": 777,
+      "generation": 46,
+      "mutation_index": 2,
+      "pre_module": 39,
+      "post_module": 30,
+      "n_synapses": 174,
+      "scale": 0.5759212546274082,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 21210
+    },
+    {
+      "seed": 777,
+      "generation": 46,
+      "mutation_index": 3,
+      "pre_module": 39,
+      "post_module": 1,
+      "n_synapses": 21,
+      "scale": 1.782746458733684,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20341
+    },
+    {
+      "seed": 777,
+      "generation": 46,
+      "mutation_index": 4,
+      "pre_module": 44,
+      "post_module": 46,
+      "n_synapses": 445,
+      "scale": 2.6681877214490637,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 5
+      },
+      "total_spikes": 20182
+    },
+    {
+      "seed": 777,
+      "generation": 47,
+      "mutation_index": 0,
+      "pre_module": 36,
+      "post_module": 33,
+      "n_synapses": 8606,
+      "scale": 1.133153513024078,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 21026
+    },
+    {
+      "seed": 777,
+      "generation": 47,
+      "mutation_index": 1,
+      "pre_module": 35,
+      "post_module": 43,
+      "n_synapses": 106,
+      "scale": 1.1618764027201396,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 19482
+    },
+    {
+      "seed": 777,
+      "generation": 47,
+      "mutation_index": 2,
+      "pre_module": 35,
+      "post_module": 48,
+      "n_synapses": 172,
+      "scale": 0.48471318466859886,
+      "fitness_before": 6.5,
+      "fitness_after": 4.0,
+      "delta": -2.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 4
+      },
+      "total_spikes": 20173
+    },
+    {
+      "seed": 777,
+      "generation": 47,
+      "mutation_index": 3,
+      "pre_module": 9,
+      "post_module": 37,
+      "n_synapses": 137,
+      "scale": 0.6314010092265663,
+      "fitness_before": 6.5,
+      "fitness_after": 5.5,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 6,
+        "MN9_right": 5
+      },
+      "total_spikes": 20611
+    },
+    {
+      "seed": 777,
+      "generation": 47,
+      "mutation_index": 4,
+      "pre_module": 3,
+      "post_module": 48,
+      "n_synapses": 3574,
+      "scale": 2.165626029212655,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20673
+    },
+    {
+      "seed": 777,
+      "generation": 48,
+      "mutation_index": 0,
+      "pre_module": 36,
+      "post_module": 1,
+      "n_synapses": 782,
+      "scale": 1.1646763065445638,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 19981
+    },
+    {
+      "seed": 777,
+      "generation": 48,
+      "mutation_index": 1,
+      "pre_module": 24,
+      "post_module": 7,
+      "n_synapses": 13095,
+      "scale": 2.463094179962916,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 2,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 20643
+    },
+    {
+      "seed": 777,
+      "generation": 48,
+      "mutation_index": 2,
+      "pre_module": 24,
+      "post_module": 14,
+      "n_synapses": 1890,
+      "scale": 0.7723301133599942,
+      "fitness_before": 6.5,
+      "fitness_after": 4.0,
+      "delta": -2.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 4,
+        "MN9_right": 4
+      },
+      "total_spikes": 19758
+    },
+    {
+      "seed": 777,
+      "generation": 48,
+      "mutation_index": 3,
+      "pre_module": 8,
+      "post_module": 17,
+      "n_synapses": 11323,
+      "scale": 0.42199067865097073,
+      "fitness_before": 6.5,
+      "fitness_after": 4.0,
+      "delta": -2.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 3,
+        "MN9_right": 5
+      },
+      "total_spikes": 21059
+    },
+    {
+      "seed": 777,
+      "generation": 48,
+      "mutation_index": 4,
+      "pre_module": 35,
+      "post_module": 38,
+      "n_synapses": 97,
+      "scale": 1.1829715894389412,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20396
+    },
+    {
+      "seed": 777,
+      "generation": 49,
+      "mutation_index": 0,
+      "pre_module": 16,
+      "post_module": 32,
+      "n_synapses": 35701,
+      "scale": 0.9354121797433892,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20599
+    },
+    {
+      "seed": 777,
+      "generation": 49,
+      "mutation_index": 1,
+      "pre_module": 26,
+      "post_module": 12,
+      "n_synapses": 112,
+      "scale": 0.48104617565600516,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 2,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20275
+    },
+    {
+      "seed": 777,
+      "generation": 49,
+      "mutation_index": 2,
+      "pre_module": 13,
+      "post_module": 28,
+      "n_synapses": 304,
+      "scale": 0.7669174524661875,
+      "fitness_before": 6.5,
+      "fitness_after": 4.5,
+      "delta": -2.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 4
+      },
+      "total_spikes": 20935
+    },
+    {
+      "seed": 777,
+      "generation": 49,
+      "mutation_index": 3,
+      "pre_module": 25,
+      "post_module": 17,
+      "n_synapses": 35687,
+      "scale": 1.5243084769155981,
+      "fitness_before": 6.5,
+      "fitness_after": 5.0,
+      "delta": -1.5,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 3,
+        "MN9_left": 5,
+        "MN9_right": 5
+      },
+      "total_spikes": 20708
+    },
+    {
+      "seed": 777,
+      "generation": 49,
+      "mutation_index": 4,
+      "pre_module": 35,
+      "post_module": 48,
+      "n_synapses": 172,
+      "scale": 2.921084001977645,
+      "fitness_before": 6.5,
+      "fitness_after": 5.5,
+      "delta": -1.0,
+      "accepted": false,
+      "dn_spikes": {
+        "DNa01_left": 1,
+        "DNa02_right": 2,
+        "MN9_left": 6,
+        "MN9_right": 5
+      },
+      "total_spikes": 19482
+    }
+  ]
+}

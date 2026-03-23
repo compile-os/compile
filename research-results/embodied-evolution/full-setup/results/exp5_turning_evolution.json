@@ -1,0 +1,48 @@
+{
+  "experiment": "turning_bias_evolution_p9",
+  "stimulus": "p9",
+  "n_gen": 2,
+  "n_cands": 3,
+  "n_mut": 300,
+  "eval_seeds": [
+    42,
+    789
+  ],
+  "duration": 1.0,
+  "bio_turn": 0.0,
+  "bio_dist": 3.0371357202529907,
+  "left_final_turn": 0.0,
+  "right_final_turn": 0.0,
+  "child_turn": 0.0,
+  "left_delta": 0.0,
+  "right_delta": 0.0,
+  "left_history": [
+    {
+      "gen": 0,
+      "score": 0.0,
+      "dist": 3.0371357202529907
+    },
+    {
+      "gen": 1,
+      "score": 0.0
+    },
+    {
+      "gen": 2,
+      "score": 0.0
+    }
+  ],
+  "right_history": [
+    {
+      "gen": 0,
+      "score": -0.0
+    },
+    {
+      "gen": 1,
+      "score": -0.0
+    },
+    {
+      "gen": 2,
+      "score": -0.0
+    }
+  ]
+}

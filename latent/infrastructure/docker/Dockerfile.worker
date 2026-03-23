@@ -1,0 +1,32 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# System dependencies for torch and scientific computing
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc g++ curl && \
+    rm -rf /var/lib/apt/lists/*
+
+# Install worker dependencies first (for caching)
+COPY worker/requirements.txt ./worker/requirements.txt
+RUN pip install --no-cache-dir -r worker/requirements.txt
+
+# Install the compile package
+COPY pyproject.toml README.md ./
+COPY compile/ ./compile/
+RUN pip install --no-cache-dir -e .
+
+# Copy worker code
+COPY worker/ ./worker/
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=10s --retries=3 \
+    CMD curl -f http://localhost:8000/health || exit 1
+
+# Run as non-root
+RUN useradd -m compile
+USER compile
+
+EXPOSE 8000
+
+CMD ["python", "-m", "uvicorn", "worker.server:app", "--host", "0.0.0.0", "--port", "8000"]

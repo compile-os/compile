@@ -1,0 +1,52 @@
+{
+  "experiment": "mutation_landscape_merge",
+  "baseline_fitness": -1.7179888557510998,
+  "mutants": [
+    {
+      "seed": 7,
+      "n_changes": 441,
+      "fitness": -0.10039932276247479,
+      "delta": 1.617589532988625,
+      "pct_change": 94.15599685490506,
+      "distance_traveled": 1.93307363986969,
+      "food_distance": 0.10039932276247479,
+      "displacement": 0.09594539552927017
+    },
+    {
+      "seed": 42,
+      "n_changes": 448,
+      "fitness": -0.10039932276247479,
+      "delta": 1.617589532988625,
+      "pct_change": 94.15599685490506,
+      "distance_traveled": 1.93307363986969,
+      "food_distance": 0.10039932276247479,
+      "displacement": 0.09594539552927017
+    },
+    {
+      "seed": 99,
+      "n_changes": 454,
+      "fitness": -0.10039932276247479,
+      "delta": 1.617589532988625,
+      "pct_change": 94.15599685490506,
+      "distance_traveled": 1.93307363986969,
+      "food_distance": 0.10039932276247479,
+      "displacement": 0.09594539552927017
+    }
+  ],
+  "merge": {
+    "n_changes": 889,
+    "fitness": -0.10039932276247479,
+    "delta": 1.617589532988625,
+    "pct_change": 94.15599685490506,
+    "expected_additive": 1.51719021022615,
+    "distance_traveled": 1.93307363986969,
+    "food_distance": 0.10039932276247479
+  },
+  "summary": {
+    "n_improved": 3,
+    "n_worsened": 0,
+    "n_same": 0,
+    "best_fitness": -0.10039932276247479,
+    "best_pct": 94.15599685490506
+  }
+}

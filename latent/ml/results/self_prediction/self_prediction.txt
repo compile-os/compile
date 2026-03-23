@@ -1,0 +1,1 @@
+07:07:16 __main__ INFO  RESULT: reservoir/self_prediction: 40.64 -> 85.09

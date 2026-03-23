@@ -1,0 +1,80 @@
+{
+  "circles": {
+    "baseline": {
+      "total_angular_displacement": 12.0,
+      "windowed_turns": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        -1.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        -2.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "turn_consistency": 0.9739999771118164,
+      "total_turn_spikes": 14.0
+    },
+    "compiled": {
+      "total_angular_displacement": 7.0,
+      "windowed_turns": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "turn_consistency": 0.984000027179718,
+      "total_turn_spikes": 9.0
+    },
+    "mutations": [
+      {
+        "src": 14,
+        "tgt": 26,
+        "scale": 1.39
+      },
+      {
+        "src": 35,
+        "tgt": 31,
+        "scale": 4.63
+      },
+      {
+        "src": 12,
+        "tgt": 14,
+        "scale": 3.9
+      }
+    ]
+  },
+  "rhythm": {
+    "baseline": null,
+    "compiled": null,
+    "mutations": []
+  }
+}

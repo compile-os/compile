@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 500">
+  <rect width="1500" height="500" fill="#0a0a0f"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.04" stroke="#a855f7" stroke-width="0.5">
+    <line x1="150" y1="0" x2="150" y2="500"/>
+    <line x1="300" y1="0" x2="300" y2="500"/>
+    <line x1="450" y1="0" x2="450" y2="500"/>
+    <line x1="600" y1="0" x2="600" y2="500"/>
+    <line x1="750" y1="0" x2="750" y2="500"/>
+    <line x1="900" y1="0" x2="900" y2="500"/>
+    <line x1="1050" y1="0" x2="1050" y2="500"/>
+    <line x1="1200" y1="0" x2="1200" y2="500"/>
+    <line x1="1350" y1="0" x2="1350" y2="500"/>
+  </g>
+
+  <!-- Logo mark (centered) -->
+  <circle cx="690" cy="200" r="18" fill="#7C3AED"/>
+  <circle cx="810" cy="200" r="18" fill="#A855F7"/>
+  <line x1="708" y1="200" x2="792" y2="200" stroke="#9333EA" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Wordmark -->
+  <text x="750" y="290" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-weight="600" font-size="56" fill="white" letter-spacing="-0.02em">compile</text>
+
+  <!-- Tagline -->
+  <text x="750" y="340" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-weight="400" font-size="20" fill="#6b7280">We design biological brains.</text>
+
+  <!-- URL -->
+  <text x="750" y="430" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-weight="400" font-size="16" fill="#7C3AED">compile.now</text>
+</svg>

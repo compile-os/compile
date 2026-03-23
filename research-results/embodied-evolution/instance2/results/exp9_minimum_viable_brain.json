@@ -1,0 +1,38 @@
+{
+  "experiment": "minimum_viable_brain",
+  "stimulus": "lc4",
+  "seeds": [
+    42,
+    789
+  ],
+  "duration": 1.0,
+  "results": {
+    "100pct": {
+      "n_synapses": 15091983,
+      "dist": 18.685667037963867,
+      "drive": 1.8980000000000004
+    },
+    "50pct": {
+      "n_synapses": 3786936,
+      "dist": 18.998339653015137,
+      "drive": 1.8200000000000003
+    },
+    "25pct": {
+      "n_synapses": 947232,
+      "dist": 17.094555854797363,
+      "drive": 1.5990000000000002
+    },
+    "12pct": {
+      "n_synapses": 234762,
+      "dist": 1.7139025330543518,
+      "drive": 0.0
+    }
+  },
+  "context_sensitivity": {
+    "full_lc4_sugar_ratio": 11.935777100375008,
+    "half_lc4_sugar_ratio": 12.13550187504112,
+    "full_sugar_dist": 1.5655174255371094,
+    "half_sugar_dist": 1.5655174255371094
+  },
+  "min_viable_brain": "25%"
+}

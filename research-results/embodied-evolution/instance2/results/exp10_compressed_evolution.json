@@ -1,0 +1,34 @@
+{
+  "experiment": "evolve_compressed_transplant",
+  "stimulus": "lc4",
+  "seeds": [
+    42,
+    789
+  ],
+  "duration": 1.0,
+  "full_baseline": 18.685667037963867,
+  "half_baseline": 18.998339653015137,
+  "half_evolved": 19.07524013519287,
+  "half_evolution_log": [
+    {
+      "gen": 0,
+      "score": 18.998339653015137,
+      "improved": false
+    },
+    {
+      "gen": 1,
+      "score": 18.998339653015137,
+      "improved": false
+    },
+    {
+      "gen": 2,
+      "score": 19.07524013519287,
+      "improved": true
+    }
+  ],
+  "transplant": {
+    "changed_synapses": 451,
+    "full_evolved_score": 18.998339653015137,
+    "improvement_pct": 1.6733286235701903
+  }
+}

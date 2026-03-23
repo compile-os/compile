@@ -1,0 +1,116 @@
+{
+  "experiment": "new_arena_baseline",
+  "arena": {
+    "spawn_pos": [
+      0.0,
+      0.0,
+      0.3
+    ],
+    "spawn_orientation_rad": 3.14159,
+    "food_pos": [
+      0.075,
+      0.0,
+      0.0
+    ],
+    "food_dist_initial": 0.075
+  },
+  "duration_sec": 2.0,
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    1337
+  ],
+  "biological_lc4": {
+    "per_seed": {
+      "42": {
+        "food_dist": 31.648188340869346,
+        "dist_traveled": 46.75334167480469
+      },
+      "123": {
+        "food_dist": 31.836476651670964,
+        "dist_traveled": 46.61177444458008
+      },
+      "456": {
+        "food_dist": 31.542272894798014,
+        "dist_traveled": 47.193511962890625
+      },
+      "789": {
+        "food_dist": 31.807135732867234,
+        "dist_traveled": 45.81320571899414
+      },
+      "1337": {
+        "food_dist": 31.882626423998122,
+        "dist_traveled": 46.036319732666016
+      }
+    },
+    "mean_food_dist": 31.74334000884074,
+    "std_food_dist": 0.12777077784560348
+  },
+  "biological_sugar": {
+    "per_seed": {
+      "42": {
+        "food_dist": 0.20572439378152083,
+        "dist_traveled": 2.5536816120147705
+      },
+      "123": {
+        "food_dist": 0.10028163900005439,
+        "dist_traveled": 2.7083189487457275
+      },
+      "456": {
+        "food_dist": 0.17404448826976854,
+        "dist_traveled": 2.647073745727539
+      },
+      "789": {
+        "food_dist": 0.2194169853329326,
+        "dist_traveled": 2.371297597885132
+      },
+      "1337": {
+        "food_dist": 0.19297434939125122,
+        "dist_traveled": 1.6350948810577393
+      }
+    },
+    "mean_food_dist": 0.17848837115510552,
+    "std_food_dist": 0.04186367638407458
+  },
+  "biological_p9": {
+    "per_seed": {
+      "42": {
+        "food_dist": 23.5890651054156,
+        "dist_traveled": 35.54573440551758
+      },
+      "123": {
+        "food_dist": 22.230282444902475,
+        "dist_traveled": 35.806236267089844
+      },
+      "456": {
+        "food_dist": 24.587020604922593,
+        "dist_traveled": 36.754127502441406
+      },
+      "789": {
+        "food_dist": 23.00577778130513,
+        "dist_traveled": 35.42451858520508
+      },
+      "1337": {
+        "food_dist": 20.123245556509293,
+        "dist_traveled": 34.91847229003906
+      }
+    },
+    "mean_food_dist": 22.707078298611016,
+    "std_food_dist": 1.5036509640651141
+  },
+  "half_brain_lc4": {
+    "per_seed": {
+      "42": {
+        "food_dist": 30.19772348277152,
+        "dist_traveled": 45.291744232177734
+      },
+      "789": {
+        "food_dist": 31.027245620479473,
+        "dist_traveled": 46.658912658691406
+      }
+    },
+    "mean_food_dist": 30.612484551625496
+  }
+}

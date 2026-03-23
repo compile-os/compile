@@ -1,0 +1,11 @@
+06:01:48 __main__ INFO  RESULT: cellular_automaton/working_memory: 0.00 -> 288.33
+06:03:52 __main__ INFO  RESULT: spiking_state_machine/working_memory: 0.00 -> 197.33
+06:06:21 __main__ INFO  RESULT: winner_take_all/working_memory: 20.00 -> 139.00
+06:08:13 __main__ INFO  RESULT: population_coding/working_memory: 0.00 -> 114.67
+06:09:54 __main__ INFO  RESULT: evidence_accumulator/working_memory: 12.00 -> 81.67
+06:11:41 __main__ INFO  RESULT: reservoir/working_memory: 0.00 -> 53.67
+06:13:18 __main__ INFO  RESULT: subsumption/working_memory: 0.00 -> 48.33
+06:14:39 __main__ INFO  RESULT: hierarchical_hub/working_memory: 6.67 -> 51.00
+06:16:39 __main__ INFO  RESULT: recurrent_attractor/working_memory: 2.33 -> 43.67
+06:18:27 __main__ INFO  RESULT: flat_distributed/working_memory: 0.00 -> 0.00
+06:21:21 __main__ INFO  RESULT: cellular_automaton/working_memory: 175.33 -> 281.67

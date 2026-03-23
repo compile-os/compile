@@ -1,0 +1,4 @@
+06:59:41 __main__ INFO  RESULT: ring/rhythm_alt: 0.00 -> 0.41
+07:02:34 __main__ INFO  RESULT: oscillatory/rhythm_alt: 0.00 -> 0.00
+07:05:34 __main__ INFO  RESULT: cellular_automaton/rhythm_alt: 2.07 -> 5.44
+07:08:54 __main__ INFO  RESULT: spiking_state_machine/rhythm_alt: 0.80 -> 1.00

@@ -1,0 +1,4 @@
+06:28:53 __main__ INFO  RESULT: cellular_automaton/structured/navigation: 0.67 -> 100.00
+06:30:30 __main__ INFO  RESULT: cellular_automaton/structured/working_memory: 0.00 -> 288.33
+06:32:05 __main__ INFO  RESULT: cellular_automaton/random/navigation: 0.67 -> 100.00
+06:33:35 __main__ INFO  RESULT: cellular_automaton/random/working_memory: 0.00 -> 288.33

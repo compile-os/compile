@@ -1,0 +1,111 @@
+{
+  "experiment": "hebbian_lc4_learning",
+  "stimulus": "lc4",
+  "seed": 42,
+  "n_trials": 10,
+  "trials": [
+    {
+      "trial": 1,
+      "distance": 18.785140991210938,
+      "mean_drive": 1.8980000000000004,
+      "mean_turn": 0.0,
+      "elapsed": 58.827500343322754
+    },
+    {
+      "trial": 2,
+      "distance": 18.785140991210938,
+      "mean_drive": 1.8980000000000004,
+      "mean_turn": 0.0,
+      "elapsed": 48.46312975883484
+    },
+    {
+      "trial": 3,
+      "distance": 18.785140991210938,
+      "mean_drive": 1.8980000000000004,
+      "mean_turn": 0.0,
+      "elapsed": 48.41268825531006
+    },
+    {
+      "trial": 4,
+      "distance": 18.785140991210938,
+      "mean_drive": 1.8980000000000004,
+      "mean_turn": 0.0,
+      "elapsed": 48.57971692085266
+    },
+    {
+      "trial": 5,
+      "distance": 18.785140991210938,
+      "mean_drive": 1.8980000000000004,
+      "mean_turn": 0.0,
+      "elapsed": 48.598992109298706
+    },
+    {
+      "trial": 6,
+      "distance": 18.785140991210938,
+      "mean_drive": 1.8980000000000004,
+      "mean_turn": 0.0,
+      "elapsed": 48.3028838634491
+    },
+    {
+      "trial": 7,
+      "distance": 18.785140991210938,
+      "mean_drive": 1.8980000000000004,
+      "mean_turn": 0.0,
+      "elapsed": 48.59980535507202
+    },
+    {
+      "trial": 8,
+      "distance": 18.785140991210938,
+      "mean_drive": 1.8980000000000004,
+      "mean_turn": 0.0,
+      "elapsed": 48.36688709259033
+    },
+    {
+      "trial": 9,
+      "distance": 18.785140991210938,
+      "mean_drive": 1.8980000000000004,
+      "mean_turn": 0.0,
+      "elapsed": 48.339330434799194
+    },
+    {
+      "trial": 10,
+      "distance": 18.785140991210938,
+      "mean_drive": 1.8980000000000004,
+      "mean_turn": 0.0,
+      "elapsed": 48.580323219299316
+    }
+  ],
+  "analysis": {
+    "first_3_mean": 18.785140991210938,
+    "last_3_mean": 18.785140991210938,
+    "slope": -4.956161192717646e-16,
+    "change_pct": 0.0
+  },
+  "generalization_seed789": [
+    {
+      "trial": 1,
+      "distance": 18.586193084716797
+    },
+    {
+      "trial": 2,
+      "distance": 18.586193084716797
+    },
+    {
+      "trial": 3,
+      "distance": 18.586193084716797
+    }
+  ],
+  "cross_stimulus_transfer": {
+    "p9_exp2_baseline": 2.1007,
+    "p9_current": 16.163192749023438,
+    "transfer_pct": 669.4193720675698
+  },
+  "current_cross_stim_perf": {
+    "sugar": 1.5655174255371094,
+    "p9": 16.17810821533203,
+    "lc4": 18.785140991210938,
+    "bitter": 1.5655174255371094,
+    "or56a": 1.5655174255371094,
+    "jo": 1.5655174255371094
+  }
+}

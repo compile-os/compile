@@ -1,0 +1,8 @@
+06:29:11 __main__ INFO  RESULT: cellular_automaton+winner_take_all/navigation/seed0: 0.00 -> 98.00
+06:30:41 __main__ INFO  RESULT: cellular_automaton+winner_take_all/conflict/seed0: 4.00 -> 10.00
+06:31:42 __main__ INFO  RESULT: cellular_automaton+winner_take_all/working_memory/seed0: 0.00 -> 288.00
+06:32:51 __main__ INFO  RESULT: cellular_automaton+winner_take_all/navigation/seed1: 4.00 -> 106.00
+06:34:20 __main__ INFO  RESULT: cellular_automaton+winner_take_all/conflict/seed1: 5.00 -> 13.00
+06:35:21 __main__ INFO  RESULT: cellular_automaton+winner_take_all/working_memory/seed1: 0.00 -> 296.00
+06:36:30 __main__ INFO  RESULT: cellular_automaton+winner_take_all/navigation/seed2: 90.00 -> 100.00
+06:37:59 __main__ INFO  RESULT: cellular_automaton+winner_take_all/conflict/seed2: 1.00 -> 10.00

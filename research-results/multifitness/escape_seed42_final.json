@@ -1,0 +1,67 @@
+{
+  "fitness_name": "escape",
+  "seed": 42,
+  "gain": 8.0,
+  "n_steps": 200,
+  "n_generations": 1,
+  "n_mutations_per_gen": 2,
+  "baseline_fitness": 22,
+  "final_fitness": 22,
+  "improvement": 0,
+  "total_accepted": 0,
+  "total_mutations": 2,
+  "mutations": [
+    {
+      "seed": 42,
+      "generation": 0,
+      "mutation_index": 0,
+      "pre_module": 28,
+      "post_module": 3,
+      "n_synapses": 14980,
+      "scale": 0.7952739326386422,
+      "fitness_before": 22.0,
+      "fitness_after": 22.0,
+      "delta": 0.0,
+      "accepted": false,
+      "dn_spikes": {
+        "P9_oDN1_left": 2,
+        "P9_oDN1_right": 4,
+        "DNa01_left": 2,
+        "DNa01_right": 4,
+        "MDN_1": 2,
+        "MDN_2": 2,
+        "MDN_3": 2,
+        "MDN_4": 2,
+        "GF_1": 7,
+        "GF_2": 7
+      },
+      "total_spikes": 17711
+    },
+    {
+      "seed": 42,
+      "generation": 0,
+      "mutation_index": 1,
+      "pre_module": 26,
+      "post_module": 44,
+      "n_synapses": 447,
+      "scale": 1.9163779073319989,
+      "fitness_before": 22.0,
+      "fitness_after": 22.0,
+      "delta": 0.0,
+      "accepted": false,
+      "dn_spikes": {
+        "P9_oDN1_left": 2,
+        "P9_oDN1_right": 4,
+        "DNa01_left": 1,
+        "DNa01_right": 2,
+        "MDN_1": 2,
+        "MDN_2": 2,
+        "MDN_3": 2,
+        "MDN_4": 2,
+        "GF_1": 7,
+        "GF_2": 7
+      },
+      "total_spikes": 16986
+    }
+  ]
+}

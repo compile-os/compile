@@ -1,0 +1,10 @@
+07:19:14 __main__ INFO  RESULT: 3tier/seed0: {'tier1_navigation': 262.0, 'tier2_prediction': 25.06212615851159, 'tier3_prediction': 0.0}
+07:19:23 __main__ INFO  RESULT: 3tier/seed1: {'tier1_navigation': 280.0, 'tier2_prediction': 41.52447826418012, 'tier3_prediction': 0.0}
+07:19:32 __main__ INFO  RESULT: 3tier/seed2: {'tier1_navigation': 255.0, 'tier2_prediction': 2.9416362249949315, 'tier3_prediction': 17.5733145531235}
+07:19:41 __main__ INFO  RESULT: 3tier/seed3: {'tier1_navigation': 276.0, 'tier2_prediction': 2.0462689138662964, 'tier3_prediction': 0.4953599029631872}
+07:19:50 __main__ INFO  RESULT: 3tier/seed4: {'tier1_navigation': 280.0, 'tier2_prediction': 64.31743973178973, 'tier3_prediction': 39.99503782153071}
+07:19:59 __main__ INFO  RESULT: 3tier/seed5: {'tier1_navigation': 277.0, 'tier2_prediction': 4.328084938306008, 'tier3_prediction': 9.927754815566358}
+07:20:09 __main__ INFO  RESULT: 3tier/seed6: {'tier1_navigation': 254.0, 'tier2_prediction': 0.0, 'tier3_prediction': 18.51903192685122}
+07:20:18 __main__ INFO  RESULT: 3tier/seed7: {'tier1_navigation': 241.0, 'tier2_prediction': 65.2349028873332, 'tier3_prediction': 13.701756871664445}
+07:20:27 __main__ INFO  RESULT: 3tier/seed8: {'tier1_navigation': 254.0, 'tier2_prediction': 23.128256443181293, 'tier3_prediction': 5.535816596643302}
+07:20:36 __main__ INFO  RESULT: 3tier/seed9: {'tier1_navigation': 258.0, 'tier2_prediction': 8.20417977983117, 'tier3_prediction': 17.762386323461442}

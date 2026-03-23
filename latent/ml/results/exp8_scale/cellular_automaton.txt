@@ -1,0 +1,4 @@
+06:29:29 __main__ INFO  RESULT: cellular_automaton/1000n/navigation: 0.00 -> 0.67
+06:30:28 __main__ INFO  RESULT: cellular_automaton/1000n/working_memory: 0.00 -> 1.00
+06:32:17 __main__ INFO  RESULT: cellular_automaton/3000n/navigation: 0.67 -> 100.00
+06:34:02 __main__ INFO  RESULT: cellular_automaton/3000n/working_memory: 0.00 -> 288.33

@@ -1,0 +1,59 @@
+{
+  "experiment": "fresh_vs_saturated",
+  "stimuli": [
+    "sugar",
+    "p9",
+    "lc4",
+    "bitter",
+    "or56a"
+  ],
+  "seed": 42,
+  "duration": 1.0,
+  "comparison": {
+    "sugar": {
+      "fresh_dist": 1.5655174255371094,
+      "sated_dist": 1.5655174255371094,
+      "ratio": 1.0,
+      "fresh_food_fitness": -0.105632356340419,
+      "sated_food_fitness": -0.105632356340419
+    },
+    "p9": {
+      "fresh_dist": 16.27040672302246,
+      "sated_dist": 15.852625846862793,
+      "ratio": 0.9743226531904385,
+      "fresh_food_fitness": -10.489885134494417,
+      "sated_food_fitness": -10.17008575487256
+    },
+    "lc4": {
+      "fresh_dist": 18.785140991210938,
+      "sated_dist": 18.785140991210938,
+      "ratio": 1.0,
+      "fresh_food_fitness": -12.677115602495121,
+      "sated_food_fitness": -12.677115602495121
+    },
+    "bitter": {
+      "fresh_dist": 1.5655174255371094,
+      "sated_dist": 1.5655174255371094,
+      "ratio": 1.0,
+      "fresh_food_fitness": -0.105632356340419,
+      "sated_food_fitness": -0.105632356340419
+    },
+    "or56a": {
+      "fresh_dist": 1.5655174255371094,
+      "sated_dist": 1.5655174255371094,
+      "ratio": 1.0,
+      "fresh_food_fitness": -0.105632356340419,
+      "sated_food_fitness": -0.105632356340419
+    }
+  },
+  "context_specificity": {
+    "fresh_lc4_sugar_ratio": 11.999317723829225,
+    "sated_lc4_sugar_ratio": 11.999317723829225,
+    "saturation_destroys_context": false
+  },
+  "food_seeking_seed123": {
+    "fresh_food_dist": 0.004243052223139034,
+    "sated_food_dist": 0.004243052223139034,
+    "fresh_better": false
+  }
+}

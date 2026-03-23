@@ -1,0 +1,134 @@
+{
+  "experiment": "hebbian_cross_trial_learning",
+  "n_trials": 15,
+  "seed": 42,
+  "duration_sec": 1.0,
+  "trial_results": [
+    {
+      "trial": 1,
+      "fitness": -0.105632356340419,
+      "food_distance": 0.105632356340419,
+      "distance_traveled": 1.5655174255371094,
+      "displacement": 0.10119752585887909,
+      "elapsed_s": 66.15890884399414
+    },
+    {
+      "trial": 2,
+      "fitness": -0.105632356340419,
+      "food_distance": 0.105632356340419,
+      "distance_traveled": 1.5655174255371094,
+      "displacement": 0.10119752585887909,
+      "elapsed_s": 53.05894112586975
+    },
+    {
+      "trial": 3,
+      "fitness": -0.105632356340419,
+      "food_distance": 0.105632356340419,
+      "distance_traveled": 1.5655174255371094,
+      "displacement": 0.10119752585887909,
+      "elapsed_s": 52.93148469924927
+    },
+    {
+      "trial": 4,
+      "fitness": -0.105632356340419,
+      "food_distance": 0.105632356340419,
+      "distance_traveled": 1.5655174255371094,
+      "displacement": 0.10119752585887909,
+      "elapsed_s": 52.66567850112915
+    },
+    {
+      "trial": 5,
+      "fitness": -0.105632356340419,
+      "food_distance": 0.105632356340419,
+      "distance_traveled": 1.5655174255371094,
+      "displacement": 0.10119752585887909,
+      "elapsed_s": 52.50000786781311
+    },
+    {
+      "trial": 6,
+      "fitness": -0.105632356340419,
+      "food_distance": 0.105632356340419,
+      "distance_traveled": 1.5655174255371094,
+      "displacement": 0.10119752585887909,
+      "elapsed_s": 52.42063117027283
+    },
+    {
+      "trial": 7,
+      "fitness": -0.105632356340419,
+      "food_distance": 0.105632356340419,
+      "distance_traveled": 1.5655174255371094,
+      "displacement": 0.10119752585887909,
+      "elapsed_s": 51.55022168159485
+    },
+    {
+      "trial": 8,
+      "fitness": -0.105632356340419,
+      "food_distance": 0.105632356340419,
+      "distance_traveled": 1.5655174255371094,
+      "displacement": 0.10119752585887909,
+      "elapsed_s": 52.20956039428711
+    },
+    {
+      "trial": 9,
+      "fitness": -0.105632356340419,
+      "food_distance": 0.105632356340419,
+      "distance_traveled": 1.5655174255371094,
+      "displacement": 0.10119752585887909,
+      "elapsed_s": 52.889315605163574
+    },
+    {
+      "trial": 10,
+      "fitness": -0.105632356340419,
+      "food_distance": 0.105632356340419,
+      "distance_traveled": 1.5655174255371094,
+      "displacement": 0.10119752585887909,
+      "elapsed_s": 52.36105465888977
+    },
+    {
+      "trial": 11,
+      "fitness": -0.105632356340419,
+      "food_distance": 0.105632356340419,
+      "distance_traveled": 1.5655174255371094,
+      "displacement": 0.10119752585887909,
+      "elapsed_s": 52.425355195999146
+    },
+    {
+      "trial": 12,
+      "fitness": -0.105632356340419,
+      "food_distance": 0.105632356340419,
+      "distance_traveled": 1.5655174255371094,
+      "displacement": 0.10119752585887909,
+      "elapsed_s": 52.14514636993408
+    },
+    {
+      "trial": 13,
+      "fitness": -0.105632356340419,
+      "food_distance": 0.105632356340419,
+      "distance_traveled": 1.5655174255371094,
+      "displacement": 0.10119752585887909,
+      "elapsed_s": 52.4730703830719
+    },
+    {
+      "trial": 14,
+      "fitness": -0.105632356340419,
+      "food_distance": 0.105632356340419,
+      "distance_traveled": 1.5655174255371094,
+      "displacement": 0.10119752585887909,
+      "elapsed_s": 52.53572678565979
+    },
+    {
+      "trial": 15,
+      "fitness": -0.105632356340419,
+      "food_distance": 0.105632356340419,
+      "distance_traveled": 1.5655174255371094,
+      "displacement": 0.10119752585887909,
+      "elapsed_s": 52.327937841415405
+    }
+  ],
+  "analysis": {
+    "first_5_mean": -0.10563235634041898,
+    "last_5_mean": -0.10563235634041898,
+    "trend": 0.0,
+    "trend_pct": 0.0,
+    "slope": 4.604501544478265e-18,
+    "learning_detected": 

@@ -1,0 +1,47 @@
+{
+  "2_regions": {
+    "n_regions": 2,
+    "n_total_neurons": 5996,
+    "baseline": 0.0,
+    "final": 98.0,
+    "accepted": 5,
+    "grow_time": 5.0,
+    "evolve_time": 26.2
+  },
+  "4_regions": {
+    "n_regions": 4,
+    "n_total_neurons": 11328,
+    "baseline": 0.0,
+    "final": 98.0,
+    "accepted": 6,
+    "grow_time": 5.0,
+    "evolve_time": 45.1
+  },
+  "6_regions": {
+    "n_regions": 6,
+    "n_total_neurons": 16770,
+    "baseline": 0.0,
+    "final": 97.0,
+    "accepted": 6,
+    "grow_time": 7.0,
+    "evolve_time": 62.8
+  },
+  "8_regions": {
+    "n_regions": 8,
+    "n_total_neurons": 22101,
+    "baseline": 89.0,
+    "final": 98.0,
+    "accepted": 4,
+    "grow_time": 9.2,
+    "evolve_time": 86.2
+  },
+  "10_regions": {
+    "n_regions": 10,
+    "n_total_neurons": 28091,
+    "baseline": 0.0,
+    "final": 99.0,
+    "accepted": 4,
+    "grow_time": 11.3,
+    "evolve_time": 104.7
+  }
+}

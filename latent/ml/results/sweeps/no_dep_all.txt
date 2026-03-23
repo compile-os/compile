@@ -1,0 +1,12 @@
+05:57:52 __main__ INFO  RESULT: cellular_automaton/navigation: 71.33 -> 424.33
+05:59:43 __main__ INFO  RESULT: cellular_automaton/escape: 184.00 -> 425.33
+06:01:32 __main__ INFO  RESULT: cellular_automaton/turning: 9.50 -> 31.27
+06:03:23 __main__ INFO  RESULT: cellular_automaton/working_memory: 0.00 -> 900.00
+06:05:37 __main__ INFO  RESULT: cellular_automaton/conflict: 2.00 -> 10.00
+06:07:47 __main__ INFO  RESULT: spiking_state_machine/navigation: 71.33 -> 452.67
+06:09:58 __main__ INFO  RESULT: spiking_state_machine/escape: 317.67 -> 465.33
+06:12:10 __main__ INFO  RESULT: spiking_state_machine/turning: 14.03 -> 33.13
+06:14:15 __main__ INFO  RESULT: spiking_state_machine/working_memory: 0.00 -> 887.33
+06:17:05 __main__ INFO  RESULT: spiking_state_machine/conflict: 2.67 -> 9.00
+06:19:41 __main__ INFO  RESULT: winner_take_all/navigation: 18.67 -> 69.67
+06:22:16 __main__ INFO  RESULT: winner_take_all/escape: 27.00 -> 75.67

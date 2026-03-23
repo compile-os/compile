@@ -1,0 +1,187 @@
+{
+  "experiment": "baseline_variance",
+  "timestamp": "2026-03-15T04:53:59.915297",
+  "connectome_synapses": 15091983,
+  "connectome_columns": [
+    "Presynaptic_ID",
+    "Postsynaptic_ID",
+    "Presynaptic_Index",
+    "Postsynaptic_Index",
+    "Connectivity",
+    "Excitatory",
+    "Excitatory x Connectivity"
+  ],
+  "part_a_sugar_variance": {
+    "runs": [
+      {
+        "fitness": -1.7179888557510998,
+        "food_distance": 1.7179888557510998,
+        "distance_traveled": 8.727858543395996,
+        "displacement": 1.7230838537216187,
+        "final_position": [
+          -1.707961916923523,
+          -0.00962083600461483,
+          -0.28718453645706177
+        ],
+        "initial_position": [
+          0.01503878366202116,
+          0.007311952766031027,
+          1.7825393676757812
+        ],
+        "seed": 42,
+        "stimulus": "sugar"
+      },
+      {
+        "fitness": -1.7179888557510998,
+        "food_distance": 1.7179888557510998,
+        "distance_traveled": 8.727858543395996,
+        "displacement": 1.7230838537216187,
+        "final_position": [
+          -1.707961916923523,
+          -0.00962083600461483,
+          -0.28718453645706177
+        ],
+        "initial_position": [
+          0.01503878366202116,
+          0.007311952766031027,
+          1.7825393676757812
+        ],
+        "seed": 123,
+        "stimulus": "sugar"
+      },
+      {
+        "fitness": -1.7179888557510998,
+        "food_distance": 1.7179888557510998,
+        "distance_traveled": 8.727858543395996,
+        "displacement": 1.7230838537216187,
+        "final_position": [
+          -1.707961916923523,
+          -0.00962083600461483,
+          -0.28718453645706177
+        ],
+        "initial_position": [
+          0.01503878366202116,
+          0.007311952766031027,
+          1.7825393676757812
+        ],
+        "seed": 999,
+        "stimulus": "sugar"
+      },
+      {
+        "fitness": -1.7179888557510998,
+        "food_distance": 1.7179888557510998,
+        "distance_traveled": 8.727858543395996,
+        "displacement": 1.7230838537216187,
+        "final_position": [
+          -1.707961916923523,
+          -0.00962083600461483,
+          -0.28718453645706177
+        ],
+        "initial_position": [
+          0.01503878366202116,
+          0.007311952766031027,
+          1.7825393676757812
+        ],
+        "seed": 7777,
+        "stimulus": "sugar"
+      },
+      {
+        "fitness": -1.7179888557510998,
+        "food_distance": 1.7179888557510998,
+        "distance_traveled": 8.727858543395996,
+        "displacement": 1.7230838537216187,
+        "final_position": [
+          -1.707961916923523,
+          -0.00962083600461483,
+          -0.28718453645706177
+        ],
+        "initial_position": [
+          0.01503878366202116,
+          0.007311952766031027,
+          1.7825393676757812
+        ],
+        "seed": 31415,
+        "stimulus": "sugar"
+      }
+    ],
+    "mean_fitness": -1.7179888557510998,
+    "std_fitness": 0.0,
+    "cv_percent": 0.0
+  },
+  "part_b_stimuli_comparison": [
+    {
+      "fitness": -1.7179888557510998,
+      "food_distance": 1.7179888557510998,
+      "distance_traveled": 8.727858543395996,
+      "displacement": 1.7230838537216187,
+      "final_position": [
+        -1.707961916923523,
+        -0.00962083600461483,
+        -0.28718453645706177
+      ],
+      "initial_position": [
+        0.01503878366202116,
+        0.007311952766031027,
+        1.7825393676757812
+      ],
+      "seed": 42,
+      "stimulus": "sugar"
+    },
+    {
+      "fitness": -1.7179888557510998,
+      "food_distance": 1.7179888557510998,
+      "distance_traveled": 8.727858543395996,
+      "displacement": 1.7230838537216187,
+      "final_position": [
+        -1.707961916923523,
+        -0.00962083600461483,
+        -0.28718453645706177
+      ],
+      "initial_position": [
+        0.01503878366202116,
+        0.007311952766031027,
+        1.7825393676757812
+      ],
+      "seed": 42,
+      "stimulus": "p9"
+    },
+    {
+      "fitness": -1.7179888557510998,
+      "food_distance": 1.7179888557510998,
+      "distance_traveled": 8.727858543395996,
+      "displacement": 1.7230838537216187,
+      "final_position": [
+        -1.707961916923523,
+        -0.00962083600461483,
+        -0.28718453645706177
+      ],
+      "initial_position": [
+        0.01503878366202116,
+        0.007311952766031027,
+        1.7825393676757812
+      ],
+      "seed": 42,
+      "stimulus": "bitter"
+    },
+    {
+      "fitness": -1.7179888557510998,
+      "food_distance": 1.7179888557510998,
+      "distance_traveled": 8.727858543395996,
+      "displacement": 1.7230838537216187,
+      "final_position": [
+        -1.707961916923523,
+        -0.00962083600461483,
+        -0.28718453645706177
+      ],
+      "initial_position": [
+        0.01503878366202116,
+        0.007311952766031027,
+        1.7825393676757812
+      ],
+      "seed": 42,
+      "stimulus": "or56a"
+    }
+  ],
+  "surprise": "EXPECTED \u2014 very low variance (deterministic simulation?)",
+  "critical_finding": "run_embodied() has TODO: does not inject modified connectome. All runs use biological brain. Weight column is Excitatory x Connectivity, not syn_count used by mutate(). Need to fix capabilities.py before evolution experiments are meaningful."
+}

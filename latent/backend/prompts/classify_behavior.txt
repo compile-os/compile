@@ -1,0 +1,14 @@
+Classify this biological neural circuit behavior into exactly ONE computational requirement tag.
+
+Tags:
+- speed: fast sensory-to-motor response (navigation, escape, turning, arousal)
+- persistence: sustained internal state after input stops (working memory, maintaining representations)
+- competition: choosing between simultaneous competing inputs (conflict resolution, decision-making)
+- rhythm: temporal alternating patterns (rhythmic locomotion, oscillation)
+- gating: selective amplification or suppression of inputs (attention, filtering)
+- adaptation: response change over time (habituation, learning, novelty detection)
+- self_prediction: circuit models its own activity or internal state (self-monitoring, forward models, recursive awareness)
+
+Behavior: "{{DESCRIPTION}}"
+
+Respond with ONLY the tag name, nothing else.

@@ -1,0 +1,5 @@
+07:18:24 __main__ INFO  RESULT: 2tier/seed0: {'tier1_navigation': 267.0, 'tier2_prediction': 31.038498412524433}
+07:18:30 __main__ INFO  RESULT: 2tier/seed1: {'tier1_navigation': 277.0, 'tier2_prediction': 0.0}
+07:18:36 __main__ INFO  RESULT: 2tier/seed2: {'tier1_navigation': 273.0, 'tier2_prediction': 0.0}
+07:18:41 __main__ INFO  RESULT: 2tier/seed3: {'tier1_navigation': 272.0, 'tier2_prediction': 1.0836480868478278}
+07:18:47 __main__ INFO  RESULT: 2tier/seed4: {'tier1_navigation': 286.0, 'tier2_prediction': 0.0}

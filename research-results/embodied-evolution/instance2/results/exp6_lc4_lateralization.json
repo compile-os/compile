@@ -1,0 +1,314 @@
+{
+  "experiment": "lc4_stimulus_survey",
+  "stimuli_tested": [
+    "sugar",
+    "p9",
+    "lc4",
+    "bitter",
+    "or56a",
+    "jo"
+  ],
+  "seeds": [
+    42,
+    789
+  ],
+  "survey": {
+    "sugar": [
+      {
+        "fitness": 1.5655174255371094,
+        "distance_traveled": 1.5655174255371094,
+        "net_displacement": 0.10119752585887909,
+        "x_progress": 0.09689212590456009,
+        "turning_consistency": 0.0,
+        "mean_drive": 0.0,
+        "mean_left_drive": 0.0,
+        "mean_right_drive": 0.0,
+        "mean_turn_asymmetry": 0.0,
+        "final_position": [
+          0.1133379340171814,
+          -0.021896714344620705,
+          1.0234706401824951
+        ],
+        "initial_position": [
+          0.016445808112621307,
+          0.007306965999305248,
+          1.781111717224121
+        ],
+        "food_distance": 0.105632356340419,
+        "food_fitness": -0.105632356340419
+      },
+      {
+        "fitness": 1.8622876405715942,
+        "distance_traveled": 1.8622876405715942,
+        "net_displacement": 0.1360994279384613,
+        "x_progress": 0.1337256133556366,
+        "turning_consistency": 0.0,
+        "mean_drive": 0.0,
+        "mean_left_drive": 0.0,
+        "mean_right_drive": 0.0,
+        "mean_turn_asymmetry": 0.0,
+        "final_position": [
+          0.1501714289188385,
+          0.03261542320251465,
+          1.019175410270691
+        ],
+        "initial_position": [
+          0.016445808112621307,
+          0.007306965999305248,
+          1.781111717224121
+        ],
+        "food_distance": 0.14391593141771386,
+        "food_fitness": -0.14391593141771386
+      }
+    ],
+    "p9": [
+      {
+        "fitness": 7.869396686553955,
+        "distance_traveled": 7.869396686553955,
+        "net_displacement": 4.463824272155762,
+        "x_progress": 4.463822364807129,
+        "turning_consistency": 0.0,
+        "mean_drive": 0.6849768153222047,
+        "mean_left_drive": 0.34248840766110233,
+        "mean_right_drive": 0.34248840766110233,
+        "mean_turn_asymmetry": 0.0,
+        "final_position": [
+          4.4802680015563965,
+          0.003397740190848708,
+          1.1198997497558594
+        ],
+        "initial_position": [
+          0.016445808112621307,
+          0.007306965999305248,
+          1.781111717224121
+        ],
+        "food_distance": 4.470269292825369,
+        "food_fitness": -4.470269292825369
+      },
+      {
+        "fitness": 7.982710361480713,
+        "distance_traveled": 7.982710361480713,
+        "net_displacement": 4.614114284515381,
+        "x_progress": 4.611973762512207,
+        "turning_consistency": 0.0,
+        "mean_drive": 0.7100592012291503,
+        "mean_left_drive": 0.35502960061457517,
+        "mean_right_drive": 0.35502960061457517,
+        "mean_turn_asymmetry": 0.0,
+        "final_position": [
+          4.628419399261475,
+          -0.1332327276468277,
+          1.1549760103225708
+        ],
+        "initial_position": [
+          0.016445808112621307,
+          0.007306965999305248,
+          1.781111717224121
+        ],
+        "food_distance": 4.620340756609942,
+        "food_fitness": -4.620340756609942
+      }
+    ],
+    "lc4": [
+      {
+        "fitness": 9.617433547973633,
+        "distance_traveled": 9.617433547973633,
+        "net_displacement": 5.751622676849365,
+        "x_progress": 5.713886737823486,
+        "turning_consistency": 0.0,
+        "mean_drive": 0.9620000000000002,
+        "mean_left_drive": 0.4810000000000001,
+        "mean_right_drive": 0.4810000000000001,
+        "mean_turn_asymmetry": 0.0,
+        "final_position": [
+          5.730332374572754,
+          0.6650770306587219,
+          1.1128708124160767
+        ],
+        "initial_position": [
+          0.016445808112621307,
+          0.007306965999305248,
+          1.781111717224121
+        ],
+        "food_distance": 5.758865333752386,
+        "food_fitness": -5.758865333752386
+      },
+      {
+        "fitness": 9.889880180358887,
+        "distance_traveled": 9.889880180358887,
+        "net_displacement": 5.812496662139893,
+        "x_progress": 5.812271595001221,
+        "turning_consistency": 0.0,
+        "mean_drive": 0.9620000000000002,
+        "mean_left_drive": 0.4810000000000001,
+        "mean_right_drive": 0.4810000000000001,
+        "mean_turn_asymmetry": 0.0,
+        "final_position": [
+          5.828717231750488,
+          -0.043857332319021225,
+          1.118364930152893
+        ],
+        "initial_position": [
+          0.016445808112621307,
+          0.007306965999305248,
+          1.781111717224121
+        ],
+        "food_distance": 5.8188825120179395,
+        "food_fitness": -5.8188825120179395
+      }
+    ],
+    "bitter": [
+      {
+        "fitness": 1.5655174255371094,
+        "distance_traveled": 1.5655174255371094,
+        "net_displacement": 0.10119752585887909,
+        "x_progress": 0.09689212590456009,
+        "turning_consistency": 0.0,
+        "mean_drive": 0.0,
+        "mean_left_drive": 0.0,
+        "mean_right_drive": 0.0,
+        "mean_turn_asymmetry": 0.0,
+        "final_position": [
+          0.1133379340171814,
+          -0.021896714344620705,
+          1.0234706401824951
+        ],
+        "initial_position": [
+          0.016445808112621307,
+          0.007306965999305248,
+          1.781111717224121
+        ],
+        "food_distance": 0.105632356340419,
+        "food_fitness": -0.105632356340419
+      },
+      {
+        "fitness": 1.8622876405715942,
+        "distance_traveled": 1.8622876405715942,
+        "net_displacement": 0.1360994279384613,
+        "x_progress": 0.1337256133556366,
+        "turning_consistency": 0.0,
+        "mean_drive": 0.0,
+        "mean_left_drive": 0.0,
+        "mean_right_drive": 0.0,
+        "mean_turn_asymmetry": 0.0,
+        "final_position": [
+          0.1501714289188385,
+          0.03261542320251465,
+          1.019175410270691
+        ],
+        "initial_position": [
+          0.016445808112621307,
+          0.007306965999305248,
+          1.781111717224121
+        ],
+        "food_distance": 0.14391593141771386,
+        "food_fitness": -0.14391593141771386
+      }
+    ],
+    "or56a": [
+      {
+        "fitness": 1.5655174255371094,
+        "distance_traveled": 1.5655174255371094,
+        "net_displacement": 0.10119752585887909,
+        "x_progress": 0.09689212590456009,
+        "turning_consistency": 0.0,
+        "mean_drive": 0.0,
+        "mean_left_drive": 0.0,
+        "mean_right_drive": 0.0,
+        "mean_turn_asymmetry": 0.0,
+        "final_position": [
+          0.1133379340171814,
+          -0.021896714344620705,
+          1.0234706401824951
+        ],
+        "initial_position": [
+          0.016445808112621307,
+          0.007306965999305248,
+          1.781111717224121
+        ],
+        "food_distance": 0.105632356340419,
+        "food_fitness": -0.105632356340419
+      },
+      {
+        "fitness": 1.8622876405715942,
+        "distance_traveled": 1.8622876405715942,
+        "net_displacement": 0.1360994279384613,
+        "x_progress": 0.1337256133556366,
+        "turning_consistency": 0.0,
+        "mean_drive": 0.0,
+        "mean_left_drive": 0.0,
+        "mean_right_drive": 0.0,
+        "mean_turn_asymmetry": 0.0,
+        "final_position": [
+          0.1501714289188385,
+          0.03261542320251465,
+          1.019175410270691
+        ],
+        "initial_position": [
+          0.016445808112621307,
+          0.007306965999305248,
+          1.781111717224121
+        ],
+        "food_distance": 0.14391593141771386,
+        "food_fitness": -0.14391593141771386
+      }
+    ],
+    "jo": [
+      {
+        "fitness": 1.5655174255371094,
+        "distance_traveled": 1.5655174255371094,
+        "net_displacement": 0.10119752585887909,
+        "x_progress": 0.09689212590456009,
+        "turning_consistency": 0.0,
+        "mean_drive": 0.0,
+        "mean_left_drive": 0.0,
+        "mean_right_drive": 0.0,
+        "mean_turn_asymmetry": 0.0,
+        "final_position": [
+          0.1133379340171814,
+          -0.021896714344620705,
+          1.0234706401824951
+        ],
+        "initial_position": [
+          0.016445808112621307,
+          0.007306965999305248,
+          1.781111717224121
+        ],
+        "food_distance": 0.105632356340419,
+        "food_fitness": -0.105632356340419
+      },
+      {
+        "fitness": 1.8622876405715942,
+        "distance_traveled": 1.8622876405715942,
+        "net_displacement": 0.1360994279384613,
+        "x_progress": 0.1337256133556366,
+        "turning_consistency": 0.0,
+        "mean_drive": 0.0,
+        "mean_left_drive": 0.0,
+        "mean_right_drive": 0.0,
+        "mean_turn_asymmetry": 0.0,
+        "final_position": [
+          0.1501714289188385,
+          0.03261542320251465,
+          1.019175410270691
+        ],
+        "initial_position": [
+          0.016445808112621307,
+          0.007306965999305248,
+          1.781111717224121
+        ],
+        "food_distance": 0.14391593141771386,
+        "food_fitness": -0.14391593141771386
+      }
+    ]
+  },
+  "best_stimulus": null,
+  "best_turn": 0.0,
+  "lateralization_result": null,
+  "direct_dn_activation": {
+    "dna01_left_rate": 0.0,
+    "dna01_right_rate": 0.0,
+    "turn_asymmetry": 0.0,
+    "turning_possible": false
+  }
+}

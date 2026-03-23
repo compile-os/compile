@@ -1,0 +1,191 @@
+{
+  "experiment": "exp01_neural_evolution",
+  "n_steps": 300,
+  "total_wall_sec": 1199.9518876075745,
+  "bio_baseline": {
+    "feed_rate_mean": 0.08333333333333331,
+    "feed_rate_std": 0.0,
+    "cv_pct": 0.0,
+    "runs": [
+      {
+        "seed": 300,
+        "feed_rate": 0.08333333333333331
+      },
+      {
+        "seed": 300,
+        "feed_rate": 0.08333333333333331
+      },
+      {
+        "seed": 300,
+        "feed_rate": 0.08333333333333331
+      },
+      {
+        "seed": 300,
+        "feed_rate": 0.08333333333333331
+      },
+      {
+        "seed": 300,
+        "feed_rate": 0.08333333333333331
+      }
+    ]
+  },
+  "mutation_sensitivity": [
+    {
+      "n_mutations": 100,
+      "random_feed": 0.08333333333333331,
+      "targeted_feed": 0.08333333333333331,
+      "random_delta": 0.0,
+      "targeted_delta": 0.0
+    },
+    {
+      "n_mutations": 1000,
+      "random_feed": 0.16666666666666663,
+      "targeted_feed": 0.08333333333333331,
+      "random_delta": 0.08333333333333331,
+      "targeted_delta": 0.0
+    },
+    {
+      "n_mutations": 10000,
+      "random_feed": 0.0,
+      "targeted_feed": 0.08333333333333331,
+      "random_delta": -0.08333333333333331,
+      "targeted_delta": 0.0
+    }
+  ],
+  "evolution": {
+    "log": [
+      {
+        "gen": 0,
+        "fitness": 0.08333333333333331,
+        "accepted": true
+      },
+      {
+        "gen": 1,
+        "fitness": 0.08333333333333331,
+        "candidate_fitness": 0.08333333333333331,
+        "accepted": false
+      },
+      {
+        "gen": 2,
+        "fitness": 0.08333333333333331,
+        "candidate_fitness": 0.08333333333333331,
+        "accepted": false
+      },
+      {
+        "gen": 3,
+        "fitness": 0.08333333333333331,
+        "candidate_fitness": 0.08333333333333331,
+        "accepted": false
+      },
+      {
+        "gen": 4,
+        "fitness": 0.08333333333333331,
+        "candidate_fitness": 0.08333333333333331,
+        "accepted": false
+      },
+      {
+        "gen": 5,
+        "fitness": 0.08333333333333331,
+        "candidate_fitness": 0.08333333333333331,
+        "accepted": false
+      },
+      {
+        "gen": 6,
+        "fitness": 0.08333333333333331,
+        "candidate_fitness": 0.08333333333333331,
+        "accepted": false
+      },
+      {
+        "gen": 7,
+        "fitness": 0.08333333333333331,
+        "candidate_fitness": 0.08333333333333331,
+        "accepted": false
+      },
+      {
+        "gen": 8,
+        "fitness": 0.08333333333333331,
+        "candidate_fitness": 0.08333333333333331,
+        "accepted": false
+      },
+      {
+        "gen": 9,
+        "fitness": 0.08333333333333331,
+        "candidate_fitness": 0.08333333333333331,
+        "accepted": false
+      },
+      {
+        "gen": 10,
+        "fitness": 0.08333333333333331,
+        "candidate_fitness": 0.08333333333333331,
+        "accepted": false
+      },
+      {
+        "gen": 11,
+        "fitness": 0.08333333333333331,
+        "candidate_fitness": 0.08333333333333331,
+        "accepted": false
+      },
+      {
+        "gen": 12,
+        "fitness": 0.08333333333333331,
+        "candidate_fitness": 0.08333333333333331,
+        "accepted": false
+      },
+      {
+        "gen": 13,
+        "fitness": 0.08333333333333331,
+        "candidate_fitness": 0.08333333333333331,
+        "accepted": false
+      },
+      {
+        "gen": 14,
+        "fitness": 0.08333333333333331,
+        "candidate_fitness": 0.08333333333333331,
+        "accepted": false
+      },
+      {
+        "gen": 15,
+        "fitness": 0.08333333333333331,
+        "candidate_fitness": 0.08333333333333331,
+        "accepted": false
+      },
+      {
+        "gen": 16,
+        "fitness": 0.08333333333333331,
+        "candidate_fitness": 0.08333333333333331,
+        "accepted": false
+      },
+      {
+        "gen": 17,
+        "fitness": 0.08333333333333331,
+        "candidate_fitness": 0.08333333333333331,
+        "accepted": false
+      },
+      {
+        "gen": 18,
+        "fitness": 0.08333333333333331,
+        "candidate_fitness": 0.08333333333333331,
+        "accepted": false
+      },
+      {
+        "gen": 19,
+        "fitness": 0.08333333333333331,
+        "candidate_fitness": 0.08333333333333331,
+        "accepted": false
+      },
+      {
+        "gen": 20,
+        "fitness": 0.08333333333333331,
+        "candidate_fitness": 0.08333333333333331,
+        "accepted": false
+      }
+    ],
+    "final_feed_rate": 0.08333333333333331,
+    "gain_over_bio": 0.0,
+    "accepted_count": 0
+  },
+  "ablation": {
+    "evolved_ablated_feed": 0.08333333333333331,
+    "bio_ablated_feed": 0.08333333333333331
+  }
+}

@@ -1,0 +1,123 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:16-alpine
+    container_name: compile-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: compile
+      POSTGRES_PASSWORD: compile_dev_password
+      POSTGRES_DB: compile
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U compile"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: compile-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Go API Backend
+  api:
+    build:
+      context: ../../backend
+      dockerfile: ../infrastructure/docker/Dockerfile.api
+    container_name: compile-api
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      - ENVIRONMENT=development
+      - PORT=8080
+      - DATABASE_URL=postgres://compile:compile_dev_password@postgres:5432/compile?sslmode=disable
+      - REDIS_URL=redis://redis:6379
+      - ML_SERVICE_URL=http://worker:8000
+      - JWT_SECRET=${JWT_SECRET:-compile-dev-jwt-secret-change-in-production}
+      - JWT_REFRESH_SECRET=${JWT_REFRESH_SECRET:-compile-dev-refresh-secret-change-in-production}
+      - COMPILE_DATA_PATH=/data/compile_platform_data.json
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - OPENAI_ORG_ID=${OPENAI_ORG_ID:-}
+      - WEBAUTHN_RP_ID=${WEBAUTHN_RP_ID:-localhost}
+      - WEBAUTHN_RP_ORIGIN=${WEBAUTHN_RP_ORIGIN:-http://localhost:3000}
+      - WEBAUTHN_RP_NAME=${WEBAUTHN_RP_NAME:-Compile}
+    volumes:
+      - ../../backend/data:/data:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Python ML Worker (evolution pipeline)
+  worker:
+    build:
+      context: ../../ml
+      dockerfile: ../infrastructure/docker/Dockerfile.worker
+    container_name: compile-worker
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - COMPILE_DATA_DIR=/data
+    volumes:
+      - ${COMPILE_DATA_DIR:-./data}:/data:ro
+      - worker_results:/results
+    mem_limit: 4g
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+  # Next.js Frontend (dev mode for local development)
+  frontend:
+    image: node:20-alpine
+    container_name: compile-frontend
+    working_dir: /app
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8080
+      - NODE_ENV=development
+    depends_on:
+      - api
+    volumes:
+      - ../../frontend:/app
+      - frontend_node_modules:/app/node_modules
+    command: sh -c "npm install && npm run dev"
+
+volumes:
+  postgres_data:
+  redis_data:
+  frontend_node_modules:
+  worker_results:
+
+networks:
+  default:
+    name: compile-network

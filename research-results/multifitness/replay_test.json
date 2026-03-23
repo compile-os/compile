@@ -1,0 +1,165 @@
+{
+  "baselines": {
+    "navigation": 5.5,
+    "escape": 34,
+    "turning": 3.3,
+    "arousal": 13
+  },
+  "recipes": {
+    "navigation": {
+      "connections": [
+        {
+          "src": 45,
+          "tgt": 36,
+          "scale": 0.9124989246233484
+        },
+        {
+          "src": 12,
+          "tgt": 26,
+          "scale": 2.241705837417887
+        },
+        {
+          "src": 1,
+          "tgt": 5,
+          "scale": 1.265868080784359
+        },
+        {
+          "src": 41,
+          "tgt": 5,
+          "scale": 0.5149962806761728
+        },
+        {
+          "src": 28,
+          "tgt": 3,
+          "scale": 0.7952739326386422
+        },
+        {
+          "src": 1,
+          "tgt": 39,
+          "scale": 1.9672000759948347
+        },
+        {
+          "src": 40,
+          "tgt": 16,
+          "scale": 0.5971401962247272
+        },
+        {
+          "src": 41,
+          "tgt": 7,
+          "scale": 0.9019058672898914
+        },
+        {
+          "src": 10,
+          "tgt": 14,
+          "scale": 1.3971896113182152
+        }
+      ],
+      "results": {
+        "navigation": {
+          "fitness": 4.5,
+          "baseline": 5.5,
+          "change": -1.0,
+          "pct_change": -18.181818181818183
+        },
+        "escape": {
+          "fitness": 30,
+          "baseline": 34,
+          "change": -4,
+          "pct_change": -11.764705882352942
+        },
+        "turning": {
+          "fitness": 4.4,
+          "baseline": 3.3,
+          "change": 1.1000000000000005,
+          "pct_change": 33.33333333333335
+        },
+        "arousal": {
+          "fitness": 14,
+          "baseline": 13,
+          "change": 1,
+          "pct_change": 7.6923076923076925
+        }
+      }
+    },
+    "escape": {
+      "connections": [
+        {
+          "src": 34,
+          "tgt": 38,
+          "scale": 0.3555781345986666
+        },
+        {
+          "src": 16,
+          "tgt": 7,
+          "scale": 0.31907902409323696
+        }
+      ],
+      "results": {
+        "navigation": {
+          "fitness": 4.5,
+          "baseline": 5.5,
+          "change": -1.0,
+          "pct_change": -18.181818181818183
+        },
+        "escape": {
+          "fitness": 33,
+          "baseline": 34,
+          "change": -1,
+          "pct_change": -2.9411764705882355
+        },
+        "turning": {
+          "fitness": 3.3,
+          "baseline": 3.3,
+          "change": 0.0,
+          "pct_change": 0.0
+        },
+        "arousal": {
+          "fitness": 13,
+          "baseline": 13,
+          "change": 0,
+          "pct_change": 0.0
+        }
+      }
+    },
+    "arousal": {
+      "connections": [
+        {
+          "src": 41,
+          "tgt": 7,
+          "scale": 0.9019058672898914
+        },
+        {
+          "src": 10,
+          "tgt": 14,
+          "scale": 1.3971896113182152
+        }
+      ],
+      "results": {
+        "navigation": {
+          "fitness": 4.5,
+          "baseline": 5.5,
+          "change": -1.0,
+          "pct_change": -18.181818181818183
+        },
+        "escape": {
+          "fitness": 32,
+          "baseline": 34,
+          "change": -2,
+          "pct_change": -5.882352941176471
+        },
+        "turning": {
+          "fitness": 4.4,
+          "baseline": 3.3,
+          "change": 1.1000000000000005,
+          "pct_change": 33.33333333333335
+        },
+        "arousal": {
+          "fitness": 14,
+          "baseline": 13,
+          "change": 1,
+          "pct_change": 7.6923076923076925
+        }
+      }
+    }
+  }
+}
