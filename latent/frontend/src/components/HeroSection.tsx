@@ -56,11 +56,11 @@ function NeuralWaves({ width, height, isDark = true }: { width: number; height: 
 
   return (
     <svg
-      width={width}
+      width="100%"
       height={height}
       viewBox={`0 0 ${width} ${height}`}
-      style={{ position: "absolute", bottom: 0, left: 0 }}
-      preserveAspectRatio="xMidYMid slice"
+      style={{ position: "absolute", bottom: 0, left: 0, right: 0 }}
+      preserveAspectRatio="none"
     >
       <defs>
         <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
@@ -194,14 +194,14 @@ export function HeroSection({ isDark = true }: { isDark?: boolean }) {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          padding: isMobile ? 20 : 80,
-          paddingBottom: isMobile ? 100 : 200,
+          padding: isMobile ? 16 : 80,
+          paddingBottom: isMobile ? 40 : 200,
         }}
       >
         {/* Title */}
         <h1
           style={{
-            fontSize: isMobile ? 56 : 140,
+            fontSize: isMobile ? 72 : 180,
             fontWeight: 200,
             color: textColor,
             margin: 0,
@@ -217,7 +217,7 @@ export function HeroSection({ isDark = true }: { isDark?: boolean }) {
         {/* Subtitle */}
         <p
           style={{
-            fontSize: isMobile ? 12 : 24,
+            fontSize: isMobile ? 14 : 30,
             color: textMuted,
             margin: "16px 0 0 0",
             opacity: subtitleOpacity,
@@ -233,9 +233,9 @@ export function HeroSection({ isDark = true }: { isDark?: boolean }) {
         {/* Tagline */}
         <p
           style={{
-            fontSize: isMobile ? 18 : 28,
+            fontSize: isMobile ? 20 : 34,
             color: textSubtle,
-            maxWidth: 700,
+            maxWidth: 800,
             textAlign: "center",
             lineHeight: 1.6,
             opacity: taglineOpacity,
@@ -250,7 +250,7 @@ export function HeroSection({ isDark = true }: { isDark?: boolean }) {
         {/* Pipeline visualization — 5 stages */}
         <div
           style={{
-            marginTop: isMobile ? 24 : 60,
+            marginTop: isMobile ? 16 : 60,
             display: "flex",
             flexDirection: isMobile ? "column" : "row",
             alignItems: "center",
@@ -261,8 +261,8 @@ export function HeroSection({ isDark = true }: { isDark?: boolean }) {
           {/* Stage 1: SPECIFY */}
           <div
             style={{
-              width: isMobile ? 120 : 150,
-              height: isMobile ? 60 : 90,
+              width: isMobile ? 140 : 200,
+              height: isMobile ? 75 : 115,
               background: cardBg,
               borderRadius: isMobile ? 10 : 12,
               border: `1px solid ${cardBorder}`,
@@ -273,8 +273,8 @@ export function HeroSection({ isDark = true }: { isDark?: boolean }) {
               backdropFilter: "blur(10px)",
             }}
           >
-            <div style={{ fontFamily: "monospace", fontSize: isMobile ? 8 : 11, color: "#a855f7", opacity: 0.9, textAlign: "center" }}>
-              <span style={{ color: textMuted, fontSize: isMobile ? 7 : 9 }}>{'>'} </span>
+            <div style={{ fontFamily: "monospace", fontSize: isMobile ? 10 : 14, color: "#a855f7", opacity: 0.9, textAlign: "center" }}>
+              <span style={{ color: textMuted, fontSize: isMobile ? 8 : 11 }}>{'>'} </span>
               <span style={{ color: "#22c55e" }}>&quot;working memory&quot;</span>
             </div>
             <svg width={isMobile ? 80 : 120} height={isMobile ? 14 : 20} viewBox="0 0 110 20" style={{ opacity: 0.7, marginTop: 2 }}>
@@ -284,13 +284,13 @@ export function HeroSection({ isDark = true }: { isDark?: boolean }) {
                 return <circle key={i} cx={x} cy={10} r={2.5 * pulse} fill="#a855f7" opacity={pulse} />;
               })}
             </svg>
-            <span style={{ fontSize: isMobile ? 6 : 9, color: textMuted, marginTop: 2, letterSpacing: "0.15em", fontWeight: 500 }}>
+            <span style={{ fontSize: isMobile ? 8 : 11, color: textMuted, marginTop: 3, letterSpacing: "0.15em", fontWeight: 500 }}>
               SPECIFY
             </span>
           </div>
 
           {/* Signal connector */}
-          <div style={{ width: isMobile ? 2 : 24, height: isMobile ? 14 : 2, position: "relative" }}>
+          <div style={{ width: isMobile ? 2 : 32, height: isMobile ? 10 : 2, position: "relative" }}>
             <div style={{ position: "absolute", inset: 0, background: isMobile ? "linear-gradient(180deg, rgba(168,85,247,0.3), rgba(168,85,247,0.3))" : "linear-gradient(90deg, rgba(168,85,247,0.2), rgba(168,85,247,0.4))", borderRadius: 1 }} />
             <div style={{ position: "absolute", left: isMobile ? "50%" : `${signal1Progress * 100}%`, top: isMobile ? `${signal1Progress * 100}%` : "50%", transform: "translate(-50%, -50%)", width: 5, height: 5, borderRadius: "50%", background: "#a855f7", boxShadow: "0 0 8px rgba(168,85,247,0.8)", opacity: signal1Opacity }} />
           </div>
@@ -299,8 +299,8 @@ export function HeroSection({ isDark = true }: { isDark?: boolean }) {
           {/* Compile orb */}
           <div
             style={{
-              width: isMobile ? 70 : 100,
-              height: isMobile ? 70 : 100,
+              width: isMobile ? 85 : 130,
+              height: isMobile ? 85 : 130,
               borderRadius: "50%",
               position: "relative",
               display: "flex",
@@ -317,8 +317,8 @@ export function HeroSection({ isDark = true }: { isDark?: boolean }) {
             </div>
             <div
               style={{
-                width: isMobile ? 56 : 82,
-                height: isMobile ? 56 : 82,
+                width: isMobile ? 68 : 108,
+                height: isMobile ? 68 : 108,
                 borderRadius: "50%",
                 background: isDark ? "radial-gradient(circle at 35% 35%, rgba(168,85,247,0.2), rgba(124,58,237,0.05))" : "radial-gradient(circle at 35% 35%, rgba(168,85,247,0.15), rgba(124,58,237,0.03))",
                 border: "1px solid rgba(168,85,247,0.2)",
@@ -329,12 +329,12 @@ export function HeroSection({ isDark = true }: { isDark?: boolean }) {
                 boxShadow: "inset 0 0 30px rgba(168,85,247,0.1)",
               }}
             >
-              <span style={{ fontSize: isMobile ? 10 : 14, color: textColor, fontWeight: 500, letterSpacing: "0.02em" }}>compile</span>
+              <span style={{ fontSize: isMobile ? 12 : 18, color: textColor, fontWeight: 500, letterSpacing: "0.02em" }}>compile</span>
             </div>
           </div>
 
           {/* Signal connector */}
-          <div style={{ width: isMobile ? 2 : 24, height: isMobile ? 14 : 2, position: "relative" }}>
+          <div style={{ width: isMobile ? 2 : 32, height: isMobile ? 10 : 2, position: "relative" }}>
             <div style={{ position: "absolute", inset: 0, background: isMobile ? "linear-gradient(180deg, rgba(168,85,247,0.3), rgba(6,182,212,0.3))" : "linear-gradient(90deg, rgba(168,85,247,0.3), rgba(6,182,212,0.3))", borderRadius: 1 }} />
             <div style={{ position: "absolute", left: isMobile ? "50%" : `${signal2Progress * 100}%`, top: isMobile ? `${signal2Progress * 100}%` : "50%", transform: "translate(-50%, -50%)", width: 5, height: 5, borderRadius: "50%", background: "linear-gradient(135deg, #a855f7, #06b6d4)", boxShadow: "0 0 8px rgba(6,182,212,0.8)", opacity: signal2Opacity }} />
           </div>
@@ -342,8 +342,8 @@ export function HeroSection({ isDark = true }: { isDark?: boolean }) {
           {/* Stage 3: CIRCUIT — extracted processor */}
           <div
             style={{
-              width: isMobile ? 120 : 150,
-              height: isMobile ? 60 : 90,
+              width: isMobile ? 140 : 200,
+              height: isMobile ? 75 : 115,
               background: cardBg,
               borderRadius: isMobile ? 10 : 12,
               border: `1px solid ${isDark ? "rgba(6,182,212,0.15)" : "rgba(6,182,212,0.25)"}`,
@@ -372,14 +372,14 @@ export function HeroSection({ isDark = true }: { isDark?: boolean }) {
                 return <line key={i} x1={c.x1} y1={c.y1} x2={c.x2} y2={c.y2} stroke="#06b6d4" strokeWidth={1.5 * g} opacity={0.5 * g} />;
               })}
             </svg>
-            <div style={{ fontSize: isMobile ? 8 : 11, color: "#06b6d4", fontFamily: "monospace", opacity: 0.8 }}>3K+ neurons</div>
-            <span style={{ fontSize: isMobile ? 7 : 10, color: textMuted, marginTop: 2, letterSpacing: "0.15em", fontWeight: 500 }}>
+            <div style={{ fontSize: isMobile ? 10 : 14, color: "#06b6d4", fontFamily: "monospace", opacity: 0.8 }}>3K+ neurons</div>
+            <span style={{ fontSize: isMobile ? 8 : 11, color: textMuted, marginTop: 3, letterSpacing: "0.15em", fontWeight: 500 }}>
               CIRCUIT
             </span>
           </div>
 
           {/* Signal connector */}
-          <div style={{ width: isMobile ? 2 : 24, height: isMobile ? 14 : 2, position: "relative" }}>
+          <div style={{ width: isMobile ? 2 : 32, height: isMobile ? 10 : 2, position: "relative" }}>
             <div style={{ position: "absolute", inset: 0, background: isMobile ? "linear-gradient(180deg, rgba(6,182,212,0.3), rgba(34,197,94,0.3))" : "linear-gradient(90deg, rgba(6,182,212,0.3), rgba(34,197,94,0.3))", borderRadius: 1 }} />
             <div style={{ position: "absolute", left: isMobile ? "50%" : `${((frame * 0.012 + 0.3) % 1) * 100}%`, top: isMobile ? `${((frame * 0.012 + 0.3) % 1) * 100}%` : "50%", transform: "translate(-50%, -50%)", width: 5, height: 5, borderRadius: "50%", background: "linear-gradient(135deg, #06b6d4, #22c55e)", boxShadow: "0 0 8px rgba(34,197,94,0.8)", opacity: 0.8 }} />
           </div>
@@ -387,8 +387,8 @@ export function HeroSection({ isDark = true }: { isDark?: boolean }) {
           {/* Stage 4: GROWTH PROGRAM — the end product */}
           <div
             style={{
-              width: isMobile ? 120 : 150,
-              height: isMobile ? 60 : 90,
+              width: isMobile ? 140 : 200,
+              height: isMobile ? 75 : 115,
               background: cardBg,
               borderRadius: isMobile ? 10 : 12,
               border: `1px solid ${isDark ? "rgba(34,197,94,0.15)" : "rgba(34,197,94,0.25)"}`,
@@ -428,8 +428,8 @@ export function HeroSection({ isDark = true }: { isDark?: boolean }) {
                 );
               })}
             </svg>
-            <div style={{ fontSize: isMobile ? 8 : 12, color: "#22c55e", fontFamily: "monospace", opacity: 0.8 }}>19 cell types</div>
-            <span style={{ fontSize: isMobile ? 7 : 10, color: textMuted, marginTop: 2, letterSpacing: "0.15em", fontWeight: 500 }}>
+            <div style={{ fontSize: isMobile ? 10 : 14, color: "#22c55e", fontFamily: "monospace", opacity: 0.8 }}>19 cell types</div>
+            <span style={{ fontSize: isMobile ? 8 : 11, color: textMuted, marginTop: 3, letterSpacing: "0.15em", fontWeight: 500 }}>
               GROWTH PROGRAM
             </span>
           </div>
