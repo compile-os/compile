@@ -643,32 +643,37 @@ export default function CatalogPage() {
               <h2 className="text-lg font-semibold">Composability</h2>
             </div>
             <p className={`text-sm ${textMuted} leading-relaxed mb-5 max-w-3xl`}>
-              Behaviors compose onto the same processor like programs onto hardware. 9 out of 10 pairs coexist without interference. When behaviors compete, the interference matrix shows exactly which pairs conflict and by how much. Conflict resolution handles competing internal states through the DN hub architecture (modules 4 and 19).
+              Behaviors compose onto the same processor like programs onto hardware. 9 out of 10 pairs coexist without interference on the biological FlyWire connectome. When behaviors compete, the interference matrix shows which pairs conflict and by how much.
             </p>
 
             {/* Interference matrix */}
             <div className={`${cardBg} border ${border} rounded-xl p-5 mb-6`}>
-              <h3 className={`text-sm font-medium ${text} mb-3`}>Interference Matrix</h3>
+              <h3 className={`text-sm font-medium ${text} mb-2`}>Interference Matrix</h3>
+              <p className={`text-[10px] ${textSubtle} mb-1 italic`}>
+                Validated on the biological FlyWire hub-and-spoke architecture only. Interference patterns on generated architectures (cellular automaton, WTA, etc.) have not been tested — active research priority.
+              </p>
               <p className={`text-[11px] ${textSubtle} mb-4`}>
                 Each cell shows how compiling the row behavior affects the column behavior. Green = synergy or neutral. Red = conflict.
               </p>
               <div className="overflow-x-auto">
                 {(() => {
                   // Build matrix from catalog data if available, otherwise use hardcoded fallback
-                  const fallbackRows = [
-                    { name: "navigation", vals: [100, 58, 0, 5, 3, 0] },
-                    { name: "escape",     vals: [2, 100, 0, 0, 0, 0] },
-                    { name: "turning",    vals: [0, 0, 100, 0, 5, 0] },
-                    { name: "arousal",    vals: [8, 3, 0, 100, 0, 0] },
-                    { name: "circles",    vals: [5, -41, 10, 0, 100, 0] },
-                    { name: "rhythm",     vals: [0, 0, 0, 0, 0, 100] },
+                  // Interference validated on FlyWire hub-and-spoke only
+                  // Rhythm pairwise interference not tested — null = N/A
+                  const fallbackRows: { name: string; vals: (number | null)[] }[] = [
+                    { name: "navigation", vals: [100, 58, 0, 5, 3, null] },
+                    { name: "escape",     vals: [2, 100, 0, 0, 0, null] },
+                    { name: "turning",    vals: [0, 0, 100, 0, 5, null] },
+                    { name: "arousal",    vals: [8, 3, 0, 100, 0, null] },
+                    { name: "circles",    vals: [5, -41, 10, 0, 100, null] },
+                    { name: "rhythm",     vals: [null, null, null, null, null, 100] },
                   ];
                   const fallbackNames = fallbackRows.map((r) => r.name);
 
                   // Use catalog interference data if available
                   const interference = catalogData?.interference;
                   let behaviorNames: string[];
-                  let getCell: (compiled: string, tested: string) => number;
+                  let getCell: (compiled: string, tested: string) => number | null;
 
                   if (interference && interference.length > 0) {
                     const nameSet = new Set<string>();
@@ -677,7 +682,8 @@ export default function CatalogPage() {
                     getCell = (compiled, tested) => {
                       if (compiled === tested) return 100;
                       const entry = interference.find((e) => e.compiled === compiled && e.tested === tested);
-                      return entry?.delta_pct ?? 0;
+                      if (!entry) return null; // Not tested — show N/A
+                      return entry.delta_pct;
                     };
                   } else {
                     behaviorNames = fallbackNames;
@@ -685,7 +691,7 @@ export default function CatalogPage() {
                       if (compiled === tested) return 100;
                       const ri = fallbackNames.indexOf(compiled);
                       const ci = fallbackNames.indexOf(tested);
-                      if (ri < 0 || ci < 0) return 0;
+                      if (ri < 0 || ci < 0) return null;
                       return fallbackRows[ri].vals[ci];
                     };
                   }
@@ -707,6 +713,9 @@ export default function CatalogPage() {
                             {behaviorNames.map((col) => {
                               const v = getCell(row, col);
                               const isDiag = row === col;
+                              if (v === null) {
+                                return <td key={col} className={`text-center px-2 py-2 ${textSubtle} italic`}>N/A</td>;
+                              }
                               const color = isDiag ? "text-purple-400 font-bold" : v > 10 ? "text-green-400" : v < -10 ? "text-red-400" : textSubtle;
                               return (
                                 <td key={col} className={`text-center px-2 py-2 ${color}`}>
@@ -773,12 +782,12 @@ export default function CatalogPage() {
                     </div>
                   </div>
                   <p className={`text-[11px] ${textMuted} leading-relaxed`}>
-                    Capacity is determined by hub modules — the most shared nodes in the connectome. Behaviors that route through the same hubs compete for bandwidth. The interference matrix above shows which pairs conflict.
+                    On the biological FlyWire connectome, capacity is determined by DN hub modules (4 and 19) — behaviors routing through the same hubs compete for bandwidth. Generated architectures use different routing mechanisms (grids, rings, layers) and each has its own capacity profile. Simultaneous multi-behavior compilation shows ~15% per-behavior degradation on single architectures, ~0% on composites.
                   </p>
                 </div>
               ) : (
                 <p className={`text-[11px] ${textMuted} leading-relaxed`}>
-                  The gene-guided processor supports multiple reactive behaviors simultaneously. Cognitive capabilities may require the full connectome. Hub modules that appear across many behaviors are the capacity bottleneck — the interference matrix shows which pairs compete.
+                  On the biological FlyWire connectome, the gene-guided processor (8,158 neurons, modules 4 and 19 as DN hubs) supports multiple speed-class behaviors simultaneously. On generated architectures, each architecture has its own routing mechanism — capacity depends on architecture choice. Simultaneous multi-behavior compilation validated on cellular automaton (84.68 total) and winner-take-all (73.69).
                 </p>
               )}
             </div>
