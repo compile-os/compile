@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="latent/frontend/public/brand/logomark-512.png" width="80" alt="Compile" />
+  <img src="compile/frontend/public/brand/logomark-512.png" width="80" alt="Compile" />
 </p>
 
 <h1 align="center">Compile</h1>
